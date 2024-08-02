@@ -1,6 +1,13 @@
 import streamlit as st
+import os
+import pickle
 
-st.title('🎈 App Name')
+st.title('🎈 Yodl')
+working_dir = os.path.dirname(os.path.abspath(__file__))
+
+# loading the saved models
+
+model = pickle.load(open(f'{working_dir}/code/code1', 'rb'))
 
 user_input = st.text_area('Write something to activate the AI:', height=200)
 
