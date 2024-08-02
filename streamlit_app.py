@@ -7,7 +7,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # loading the saved models
 
-model = pickle.load(open(f'{working_dir}/code/code1', 'rb'))
+model = pickle.load(open(f'{working_dir}/code/code1', 'r'))
 
 user_input = st.text_area('Write something to activate the AI:', height=200)
 
