@@ -32,7 +32,7 @@ from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
-#import subprocess
+import subprocess
 
 
 
