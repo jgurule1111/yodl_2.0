@@ -9,8 +9,7 @@ langchainhub
 
 llama-parse
 qdrant-client
-#unstructured[md]
-unstructured
+unstructured[md]
 fastembed==0.3.2
 flashrank
 langchain-openai
