@@ -32,7 +32,6 @@ from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
-import subprocess
 
 
 
@@ -186,16 +185,6 @@ def calculate_cagr(present_value, past_value, time):
 #!mkdir data
 #!wget "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf" -O "data/Nike_annual_23.pdf"
 
-mkdir_command = ["mkdir", "data"]
-result_mkdir = subprocess.run(mkdir_command, capture_output=True, text=True)
-
-
-wget_command = [
-    "wget",
-    "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf",
-    "-O", "data/Nike_annual_23.pdf"
-]
-result_wget = subprocess.run(wget_command, capture_output=True, text=True)
 
 instruction = """The provided document is Nikes 2023 Annual Report Results.
 This form provides detailed financial information about the company's performance for a specific year.
@@ -212,7 +201,7 @@ parser = LlamaParse(
 
 
 
-llama_parse_documents = parser.aload_data("data/Nike_annual_23.pdf")
+llama_parse_documents = await parser.aload_data("Nike2023.pdf")
 parsed_doc = llama_parse_documents[0]
 
 document_path = Path("data/parsed_document.md")
