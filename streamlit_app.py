@@ -1,6 +1,5 @@
 import streamlit as st
 import os
-import pickle
 from codeforllama import test_poop
 
 st.title('Yodl')
