@@ -201,7 +201,7 @@ parser = LlamaParse(
 
 
 
-llama_parse_documents = await parser.aload_data("Nike2023.pdf")
+llama_parse_documents = parser.aload_data("Nike2023.pdf")
 parsed_doc = llama_parse_documents[0]
 
 document_path = Path("data/parsed_document.md")
