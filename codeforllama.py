@@ -32,6 +32,8 @@ from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
+import subprocess
+
 
 
 os.environ["LANGCHAIN_TRACING_V2"] = 'true'
@@ -181,10 +183,19 @@ def calculate_cagr(present_value, past_value, time):
     except Exception as e:
         return print("error")
 
-!mkdir data
-!wget "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf" -O "data/Nike_annual_23.pdf"
+#!mkdir data
+#!wget "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf" -O "data/Nike_annual_23.pdf"
+
+mkdir_command = ["mkdir", "data"]
+result_mkdir = subprocess.run(mkdir_command, capture_output=True, text=True)
 
 
+wget_command = [
+    "wget",
+    "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf",
+    "-O", "data/Nike_annual_23.pdf"
+]
+result_wget = subprocess.run(wget_command, capture_output=True, text=True)
 
 instruction = """The provided document is Nikes 2023 Annual Report Results.
 This form provides detailed financial information about the company's performance for a specific year.
