@@ -9,7 +9,11 @@ langchainhub
 
 llama-parse
 qdrant-client
-unstructured[md]
+#unstructured[md]
+unstructured-client==0.16.0
+unstructured==0.12.3
+unstructured-inference==0.7.23
+unstructured.pytesseract==0.3.12
 fastembed==0.3.2
 flashrank
 langchain-openai
