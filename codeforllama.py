@@ -2,7 +2,6 @@ import streamlit as st
 import os
 import textwrap
 from pathlib import Path
-from IPython.display import Markdown
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from langchain.retrievers import ContextualCompressionRetriever
