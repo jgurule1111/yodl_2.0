@@ -15,8 +15,7 @@ from langchain.schema import Document
 from typing import Annotated
 from typing_extensions import TypedDict
 from langgraph.graph.message import AnyMessage, add_messages
-from langchain.schema import HumanMessage, SystemMessage
-from pathlib import Pathloaders 
+from langchain.schema import HumanMessage, SystemMessage 
 import UnstructuredMarkdownLoader
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
