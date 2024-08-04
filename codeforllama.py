@@ -202,7 +202,7 @@ parser = LlamaParse(
 llama_parse_documents = parser.aload_data("Nike2023.pdf")
 parsed_doc = llama_parse_documents
 
-document_path = Path("data/parsed_document.md")
+document_path = Path("parsed_document.md")
 with document_path.open("a") as f:
     f.write(parsed_doc.text)
 
