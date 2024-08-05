@@ -312,11 +312,13 @@ from langchain_core.runnables import Runnable, RunnableConfig
 from langchain_core.messages import AIMessage
 
 
-@st.cache_data
 class Assistant:
+    
+    @st.cache_data
     def __init__(self, runnable: Runnable):
         self.runnable = runnable
-
+    
+    @st.cache_data
     def __call__(self, state: GraphState, config: RunnableConfig):
       while True:
 
