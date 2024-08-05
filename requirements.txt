@@ -6,7 +6,6 @@ langchain_community==0.2.6
 sentence_transformers 
 tiktoken 
 langchainhub
-faiss-gpu
 faiss
 
 llama-parse
