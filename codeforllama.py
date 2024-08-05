@@ -314,11 +314,11 @@ from langchain_core.messages import AIMessage
 
 class Assistant:
     
-    @st.cache_resource
+   
     def __init__(self, runnable: Runnable):
         self.runnable = runnable
     
-    @st.cache_resource
+
     def __call__(self, state: GraphState, config: RunnableConfig):
       while True:
 
