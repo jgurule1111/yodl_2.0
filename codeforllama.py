@@ -311,14 +311,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable, RunnableConfig
 from langchain_core.messages import AIMessage
 
-@st.cache_data
+
 class Assistant:
     
-    @st.cache_data
+    @st.cache_resource
     def __init__(self, runnable: Runnable):
         self.runnable = runnable
     
-    @st.cache_data
+    @st.cache_resource
     def __call__(self, state: GraphState, config: RunnableConfig):
       while True:
 
@@ -356,7 +356,7 @@ class Assistant:
 
 
 
-@st.cache_data
+@st.cache_resource
 def retrieve(state):
   """
   Retrieve documents from vectorstore
@@ -428,7 +428,7 @@ from langchain_core.runnables import RunnableLambda
 
 from langgraph.prebuilt import ToolNode
 
-@st.cache_data
+@st.cache_resource
 def handle_tool_error(state) -> dict:
     error = state.get("error")
     tool_calls = state["messages"][-1].tool_calls
@@ -442,13 +442,13 @@ def handle_tool_error(state) -> dict:
         ]
     }
 
-@st.cache_data
+@st.cache_resource
 def create_tool_node_with_fallback(tools: list) -> dict:
     return ToolNode(tools).with_fallbacks(
         [RunnableLambda(handle_tool_error)], exception_key="error"
     )
 
-@st.cache_data
+@st.cache_resource
 def _print_event(event: dict, _printed: set, max_length=5000):
     current_state = event.get("dialog_state")
     if current_state:
