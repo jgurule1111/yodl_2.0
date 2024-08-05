@@ -425,7 +425,7 @@ from langchain_core.runnables import RunnableLambda
 
 from langgraph.prebuilt import ToolNode
 
-
+@st.cache_data
 def handle_tool_error(state) -> dict:
     error = state.get("error")
     tool_calls = state["messages"][-1].tool_calls
@@ -439,12 +439,13 @@ def handle_tool_error(state) -> dict:
         ]
     }
 
-
+@st.cache_data
 def create_tool_node_with_fallback(tools: list) -> dict:
     return ToolNode(tools).with_fallbacks(
         [RunnableLambda(handle_tool_error)], exception_key="error"
     )
 
+@st.cache_data
 def _print_event(event: dict, _printed: set, max_length=5000):
     current_state = event.get("dialog_state")
     if current_state:
