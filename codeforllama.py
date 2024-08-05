@@ -492,6 +492,9 @@ builder.add_conditional_edges(
     {"tools": "tools", END: END},
 )
 
+memory = SqliteSaver.from_conn_string(":memory:")
+graph = builder.compile(checkpointer=memory)
+
 @st.cache_resource(ttl=3600)
 def test_poop(question:str):
   _printed = set()
