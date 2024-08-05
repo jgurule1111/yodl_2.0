@@ -201,7 +201,7 @@ paths = "parsed_document.md"
 #db = FAISS.from_documents(doc, embeddings)
 
 #retriever = db.as_retriever(search_kwargs={"k": 3})
-@st.cache_data
+@st.cache_resource
 def setup_document_retriever(document_path: str):
     # Load the document
     document_path = Path(document_path)
