@@ -184,24 +184,20 @@ def calculate_cagr(present_value, past_value, time):
 #!mkdir data
 #!wget "https://s1.q4cdn.com/806093406/files/doc_downloads/2023/414759-1-_5_Nike-NPS-Combo_Form-10-K_WR.pdf" -O "data/Nike_annual_23.pdf"
 
-
 instruction = """The provided document is Nikes 2023 Annual Report Results.
 This form provides detailed financial information about the company's performance for a specific year.
 It includes the audited financial statements, management discussion and analysis, and other relevant disclosures required by the SEC.
 It also contains many tables.
 Try to be precise while answering the questions, if you don't know the answer, say you don't know, don't try to make up an answer."""
-@st.cache_resource
+
 parser = LlamaParse(
     api_key="llx-LTFMoRgHKnsJqQuGkL9rmIn4QzpL9ESXmM0MTZ7FsmQ0VPpy",
     result_type="markdown",
     parsing_instruction=instruction,
     max_timeout=5000,
-)
+    )
+llama_parse_documents = parser.aload_data("Nike2023.pdf)
 
-
-
-llama_parse_documents = parser.aload_data("Nike2023.pdf")
-parsed_doc = llama_parse_documents
 
 document_path = Path("parsed_document.md")
 #with document_path.open("a") as f:
@@ -212,10 +208,17 @@ loaded_documents = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
 doc = text_splitter.split_documents(loaded_documents)
-@st.cache_resource
-embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-@st.cache_resource
-db = FAISS.from_documents(doc, embeddings)
+
+@st.cache_data
+def create_embedding_database(documents):
+   
+    embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+    db = FAISS.from_documents(documents, embeddings)
+    return db
+
+
+db =  create_embedding_database(doc)
+
 
 retriever = db.as_retriever(search_kwargs={"k": 3})
 
@@ -314,9 +317,6 @@ class Assistant:
       while True:
 
 
-
-
-
         result = self.runnable.invoke(state)
 
         #messages = state["messages"]
@@ -410,7 +410,7 @@ from langchain_openai import ChatOpenAI
 #model = ChatOpenAI(model="gpt-3.5-turbo")
 
 
-@st.cache_resource
+
 llm = ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
 
 assistant_runnable = primary_assistant_prompt | llm.bind_tools(tools)
