@@ -408,8 +408,8 @@ Retrieved Documents: {documents},"""
 from langchain_openai import ChatOpenAI
 
 #model = ChatOpenAI(model="gpt-3.5-turbo")
-# LLM chain
-@st.cache
+
+
 llm = ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
 
 assistant_runnable = primary_assistant_prompt | llm.bind_tools(tools)
