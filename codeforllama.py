@@ -108,7 +108,7 @@ def net_working_capital(current_assets, long_term_debt, current_liabilities):
   except ZeroDivisionError:
     return print("error Current liabilities cannot be zero")
 
-@st.cache_data
+
 @tool
 def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   """
