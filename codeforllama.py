@@ -209,15 +209,9 @@ loaded_documents = loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
 doc = text_splitter.split_documents(loaded_documents)
 
-@st.cache_resource
-def create_embedding_database(documents):
-   
-    embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-    db = FAISS.from_documents(documents, embeddings)
-    return db
 
-
-db =  create_embedding_database(doc)
+embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+db = FAISS.from_documents(documents, embeddings)
 
 
 retriever = db.as_retriever(search_kwargs={"k": 3})
