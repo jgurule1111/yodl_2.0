@@ -89,6 +89,7 @@ def calculate_quick_ratio(current_assets, inventory, current_liabilities):
         return print("error Current liabilities cannot be zero")
 
 @tool
+@st.cache_data
 def net_working_capital(current_assets, long_term_debt, current_liabilities):
   """    Calculate the net working capital.
 
