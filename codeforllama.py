@@ -108,7 +108,7 @@ def net_working_capital(current_assets, long_term_debt, current_liabilities):
   except ZeroDivisionError:
     return print("error Current liabilities cannot be zero")
 
-
+@st.cache_data
 @tool
 def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   """
@@ -229,6 +229,8 @@ tools = [
     generate_graph,
     calculate_cagr
 ]
+
+@st.cache_data
 def income_statement(ticker: str, question: str):
   """
     This function fetches the income statement of a given company using its stock ticker symbol,
@@ -254,7 +256,7 @@ def income_statement(ticker: str, question: str):
 
   return {"documents": str(df_str)}
 
-
+@st.cache_data
 def balance_sheet(ticker: str, question: str):
   """
     This function fetches the income statement of a given company using its stock ticker symbol,
@@ -344,7 +346,7 @@ class Assistant:
 
 
 
-
+@st.cache_data
 def retrieve(state):
   """
   Retrieve documents from vectorstore
