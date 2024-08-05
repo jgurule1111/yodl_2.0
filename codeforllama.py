@@ -312,6 +312,7 @@ from langchain_core.runnables import Runnable, RunnableConfig
 from langchain_core.messages import AIMessage
 
 
+@st.cache_data
 class Assistant:
     def __init__(self, runnable: Runnable):
         self.runnable = runnable
