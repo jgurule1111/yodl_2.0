@@ -196,7 +196,7 @@ parser = LlamaParse(
     parsing_instruction=instruction,
     max_timeout=5000,
     )
-llama_parse_documents = parser.aload_data("Nike2023.pdf)
+llama_parse_documents = parser.aload_data("Nike2023.pdf")
 
 
 document_path = Path("parsed_document.md")
