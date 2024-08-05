@@ -211,7 +211,7 @@ paths = "parsed_document.md"
 #loaded_documents = loader.load()
 
 #text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
-3doc = text_splitter.split_documents(loaded_documents)
+#doc = text_splitter.split_documents(loaded_documents)
 
 
 #embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
