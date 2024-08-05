@@ -30,6 +30,7 @@ from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
 from langchain_community.vectorstores import FAISS
+import streamlit as st
 
 
 
@@ -378,61 +379,7 @@ def retrieve(state):
 
   else:
     documents = compression_retriever.invoke(question_myTuple) #later I should add a chain/prompt to make this better
-    return {"documents": documents, "messages": question_myTuple}#{"documents": documents, "question": question_myTuple}
-
-
-def generate(state):
-  """
-    Generate answer using RAG on retrieved documents
-
-    Args:
-        state (dict): The current graph state
-
-    Returns:
-        state (dict): New key added to state, generation, that contains LLM generation
-    """
-  #question = state["question"]
-
-  append = state['messages'].append(state['question'])
-  del state['question']
-  messages = state["messages"]
-  documents = state["documents"]
-
-    # RAG generation [llm_with_tools.invoke(state["question"])]
-
-  generation = assistant_runnable.invoke({"documents": documents, "messages": messages})
-
-  list_gen = state["messages"]
-
-  list_gen.append(generation)
-  stater = {**state, "messages": list_gen}
-
-  regenerate = assistant_runnable.invoke({"documents": documents, "messages": stater})
-  return print(regenerate)
-
-
-
-assistant_prompt = ChatPromptTemplate.from_messages(
-    [
-        (   "system",
-            '''Please use the retrieved documents to answer the user's question thoroughly.
-
-- For questions involving calculations, use the following list of tools to provide the best answer. DO NOT CALCULATE THE ANSWER YOURSELF.
-- List of tools:
-  - calculate growth rates
-  - calculate net working capital
-  - calculate the quick ratio
-  - calculate the CAGR
-- For questions requiring graphs, use the generate_graph function.
-
-Ensure your response is accurate and relevant by effectively incorporating the provided documents.
-
-Retrieved Documents: {documents}''',
-
-        ),
-        ("placeholder", "{question}"),
-    ]
-)
+    return {"documents": documents, "messages": question_myTuple}
 
 
 primary_assistant_prompt = ChatPromptTemplate.from_messages(
@@ -458,47 +405,15 @@ Retrieved Documents: {documents},"""
 )
 
 
-
-'''primary_assistant_prompt = ChatPromptTemplate.from_messages(
-    [
-        (   "system",
-            """You are an assistant for question-answering tasks. Use the following pieces of retrieved documents to answer the question, utilizing the tools when necessary.
-            You also have access to three tools if needed to answers the users question:
-
-            (1) calculating growth rates,
-            (2) calculating net working capital,
-            (3) calculating the quick ratio.
-
-Some questions will explicitly require the use of one of these tools,
-while other questions may not involve tool use at all. For questions that do not require tool use, you are expected to generate answers from the retrieved documents.
-
-Here are some guidelines to follow:
-
-- If the user explicitly asks you to use one of the tools, employ the appropriate tool to provide the answer.
-- If the user's question does not involve any of the tools, generate a well-informed and accurate response based on the documents.
-- If you do not know the answer to a question, be honest and say "I don't know the answer."
-- Ensure that your answers are clear, concise, and helpful, regardless of whether tools are used or not.
-
-Remember, your goal is to provide valuable assistance to the users by leveraging your tools when applicable and relying on the retrieved documents when necessary.
-Retrieved Documents relevant to the question: {documents}""",
-
-        ),
-        ("placeholder", "{messages}"),
-    ]
-)
-
-'''
 from langchain_openai import ChatOpenAI
 
 #model = ChatOpenAI(model="gpt-3.5-turbo")
 # LLM chain
+@st.cache
 llm = ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
-from langchain.output_parsers import PandasDataFrameOutputParser
-parser = PandasDataFrameOutputParser()
-# Modification: bind_tools: tell the LLM which tools it can call
-assistant_runnable = primary_assistant_prompt | model.bind_tools(tools)
 
-assistant_runnable123 = assistant_prompt | llm
+assistant_runnable = primary_assistant_prompt | llm.bind_tools(tools)
+
 
 
 from langchain_core.messages import ToolMessage
@@ -569,7 +484,7 @@ builder.add_conditional_edges(
     {"tools": "tools", END: END},
 )
 
-
+@st.cache
 def test_poop(question:str):
   _printed = set()
   thread_id = str(uuid.uuid4())
