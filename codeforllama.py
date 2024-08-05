@@ -34,10 +34,10 @@ import streamlit as st
 
 
 
-os.environ["LANGCHAIN_TRACING_V2"] = 'true'
-os.environ["LANGCHAIN_ENDPOINT"] = 'https://api.smith.langchain.com'
-os.environ["LANGCHAIN_API_KEY"] = "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"
-os.environ["LANGCHAIN_PROJECT"] = "langchain rag agent"
+#os.environ["LANGCHAIN_TRACING_V2"] = 'true'
+#os.environ["LANGCHAIN_ENDPOINT"] = 'https://api.smith.langchain.com'
+#os.environ["LANGCHAIN_API_KEY"] = "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"
+#os.environ["LANGCHAIN_PROJECT"] = "langchain rag agent"
 
 os.environ['GROQ_API_KEY'] = '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'
 
