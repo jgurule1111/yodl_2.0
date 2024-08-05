@@ -45,6 +45,7 @@ os.environ['GROQ_API_KEY'] = 'gsk_1N4EojO5Tx0kIJQ7XpfyWGdyb3FY0xph2CiebhEN01IvFz
 
 
 @tool
+@st.cache_data
 def calculate_growth_rate(present_value, past_value):
     """
     Calculate the growth rate given the initial and final values.
@@ -67,6 +68,7 @@ def calculate_growth_rate(present_value, past_value):
         return print("error, Initial value cannot be zero")
 
 @tool
+@st.cache_data
 def calculate_quick_ratio(current_assets, inventory, current_liabilities):
     """
     Calculate the net working capital.
@@ -111,6 +113,7 @@ def net_working_capital(current_assets, long_term_debt, current_liabilities):
 
 
 @tool
+@st.cache_data
 def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   """
     Generate a line graph to visualize financial data (e.g., EPS, revenue, and free cash flow) over time for a specified company.
@@ -157,6 +160,7 @@ def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   return plt.show()
 
 @tool
+@st.cache_data
 def calculate_cagr(present_value, past_value, time):
     """Calculates the Compound Annual Growth Rate (CAGR) given the present value, past value, and the number of years.
 
