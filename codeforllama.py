@@ -204,22 +204,41 @@ parser = LlamaParse(
 llama_parse_documents = parser.aload_data("Nike2023.pdf")
 
 
-document_path = Path("parsed_document.md")
-#with document_path.open("a") as f:
-    #f.write(parsed_doc.text)
+#document_path = Path("parsed_document.md")
+paths = "parsed_document.md"
 
-loader = UnstructuredMarkdownLoader(document_path)
-loaded_documents = loader.load()
+#loader = UnstructuredMarkdownLoader(document_path)
+#loaded_documents = loader.load()
 
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
-doc = text_splitter.split_documents(loaded_documents)
-
-
-embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-db = FAISS.from_documents(doc, embeddings)
+#text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
+3doc = text_splitter.split_documents(loaded_documents)
 
 
-retriever = db.as_retriever(search_kwargs={"k": 3})
+#embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+#db = FAISS.from_documents(doc, embeddings)
+
+#retriever = db.as_retriever(search_kwargs={"k": 3})
+
+def setup_document_retriever(document_path: str):
+    # Load the document
+    document_path = Path(document_path)
+    loader = UnstructuredMarkdownLoader(document_path)
+    loaded_documents = loader.load()
+
+    # Split the document into chunks
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
+    doc = text_splitter.split_documents(loaded_documents)
+
+    # Create embeddings and set up FAISS
+    embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+    db = FAISS.from_documents(doc, embeddings)
+
+    # Set up the retriever
+    retriever = db.as_retriever(search_kwargs={"k": 3})
+    
+    return retriever
+
+retriever = setup_document_retriever(paths)
 
 compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
 compression_retriever = ContextualCompressionRetriever(
