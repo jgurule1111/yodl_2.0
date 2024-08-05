@@ -289,7 +289,7 @@ def balance_sheet(ticker: str, question: str):
 
 
 
-
+@st.cache_data
 class GraphState(TypedDict):
     """
     Represents the state of our graph.
@@ -311,7 +311,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable, RunnableConfig
 from langchain_core.messages import AIMessage
 
-
+@st.cache_data
 class Assistant:
     
     @st.cache_data
