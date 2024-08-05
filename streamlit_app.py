@@ -13,3 +13,4 @@ user_input = st.text_area('Write something to activate the AI:', height=200)
 if st.button('Enter'):
     with st.spinner('Thinking...'):
         response = test_poop(user_input)
+        print(str(response))
