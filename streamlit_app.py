@@ -10,6 +10,6 @@ st.title('Yodl')
 user_input = st.text_area('Write something to activate the AI:', height=200)
 
 
-if st.button('Generate Story'):
-    with st.spinner('Generating Story...'):
+if st.button('Enter'):
+    with st.spinner('Thinking...'):
         response = test_poop(user_input)
