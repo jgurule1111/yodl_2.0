@@ -211,7 +211,7 @@ doc = text_splitter.split_documents(loaded_documents)
 
 
 embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-db = FAISS.from_documents(documents, embeddings)
+db = FAISS.from_documents(doc, embeddings)
 
 
 retriever = db.as_retriever(search_kwargs={"k": 3})
