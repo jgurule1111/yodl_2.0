@@ -218,7 +218,7 @@ qdrant = Qdrant.from_documents(
     doc,
     embeddings,
     # location=":memory:",
-    path="db",
+    path="qdb",
     collection_name="document_embeddings",
 )
 
