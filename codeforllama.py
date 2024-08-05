@@ -30,6 +30,7 @@ from langchain_core.tools import tool
 from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
+from langchain_community.vectorstores import FAISS
 
 
 
@@ -214,17 +215,9 @@ doc = text_splitter.split_documents(loaded_documents)
 
 embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
 
-qdrant = Qdrant.from_documents(
-    doc,
-    embeddings,
-    # location=":memory:",
-    path="qdb",
-    collection_name="document_embeddings",
-)
+db = FAISS.from_documents(doc, embeddings)
 
-#A retriever is an interface that returns documents given an unstructured query.
-retriever = qdrant.as_retriever(search_kwargs={"k": 3})
-
+retriever = db.as_retriever(search_kwargs={"k": 3})
 
 compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
 compression_retriever = ContextualCompressionRetriever(
