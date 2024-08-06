@@ -515,9 +515,9 @@ def  test_poop(questions):
     "configurable": {
         # Checkpoints are accessed by thread_id
         "thread_id": thread_id,
+     }
     }
-    }
-
+    question = str(questions)
     event = graph.invoke({"question": questions}, config)
 
     message = event.get("messages")
