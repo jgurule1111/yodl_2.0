@@ -450,13 +450,10 @@ def create_tool_node_with_fallback(tools: list) -> dict:
     )
 
 
-def _get_event_details(event: dict, _printed: set, max_length=5000):
-    event_details = {}
-    
+def _print_event(event: dict, _printed: set, max_length=5000):
     current_state = event.get("dialog_state")
     if current_state:
-        event_details["current_state"] = current_state[-1]
-        
+        print("Currently in: ", current_state[-1])
     message = event.get("messages")
     if message:
         if isinstance(message, list):
@@ -465,10 +462,8 @@ def _get_event_details(event: dict, _printed: set, max_length=5000):
             msg_repr = message.pretty_repr(html=True)
             if len(msg_repr) > max_length:
                 msg_repr = msg_repr[:max_length] + " ... (truncated)"
-            event_details["message"] = msg_repr
+            print(str(msg_repr))
             _printed.add(message.id)
-            
-    return event_details
 
 ####TESTERR
 
@@ -502,32 +497,17 @@ memory = SqliteSaver.from_conn_string(":memory:")
 graph = builder.compile(checkpointer=memory)
 
 @st.cache_resource(ttl=3600)
-def test_poop(question:str):
-    _printed = set()
-    thread_id = str(uuid.uuid4())
+def  test_poop(questions):
+  event = graph.invoke({"question": questions}, config)
 
-    config = {
-      "configurable": {
-          # Checkpoints are accessed by thread_id
-          "thread_id": thread_id,
-      }
-     }
+  message = event.get("messages")
 
-    events = graph.stream(
-      {"question": question}, config, stream_mode="values"
+  if message:
+        if isinstance(message, list):
+            message = message[-1]
+            msg_repr = message.pretty_repr(html=True)
 
-    )
+  return print(msg_repr)
 
-    event_details_list = []
 
-    for event in events:
-      event_details = _get_event_details(event, _printed)
-      if event_details:
-        event_details_list.append(event_details)
 
-# Serialize to JSON
-    json_output = json.dumps(event_details_list, indent=2)
-
-# Print or save the JSON output
-    return print(json_output)
-  
