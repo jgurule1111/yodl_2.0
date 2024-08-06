@@ -449,10 +449,13 @@ def create_tool_node_with_fallback(tools: list) -> dict:
     )
 
 
-def _print_event(event: dict, _printed: set, max_length=5000):
+def _get_event_details(event: dict, _printed: set, max_length=5000):
+    event_details = {}
+    
     current_state = event.get("dialog_state")
     if current_state:
-        print("Currently in: ", current_state[-1])
+        event_details["current_state"] = current_state[-1]
+        
     message = event.get("messages")
     if message:
         if isinstance(message, list):
@@ -461,8 +464,10 @@ def _print_event(event: dict, _printed: set, max_length=5000):
             msg_repr = message.pretty_repr(html=True)
             if len(msg_repr) > max_length:
                 msg_repr = msg_repr[:max_length] + " ... (truncated)"
-            print(str(msg_repr))
+            event_details["message"] = msg_repr
             _printed.add(message.id)
+            
+    return event_details
 
 ####TESTERR
 
@@ -512,7 +517,16 @@ def test_poop(question:str):
 
     )
 
+    event_details_list = []
+
     for event in events:
-        _print_event(event, _printed)
-  
+      event_details = _get_event_details(event, _printed)
+      if event_details:
+        event_details_list.append(event_details)
+
+# Serialize to JSON
+    json_output = json.dumps(event_details_list, indent=2)
+
+# Print or save the JSON output
+    return print(json_output)
   
