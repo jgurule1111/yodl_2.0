@@ -496,18 +496,38 @@ builder.add_conditional_edges(
 memory = SqliteSaver.from_conn_string(":memory:")
 graph = builder.compile(checkpointer=memory)
 
+from pprint import pprint
+import uuid
+
+_printed = set()
+thread_id = str(uuid.uuid4())
+
+config = {
+    "configurable": {
+        # Checkpoints are accessed by thread_id
+        "thread_id": thread_id,
+    }
+}
+
 @st.cache_resource(ttl=3600)
 def  test_poop(questions):
-  event = graph.invoke({"question": questions}, config)
+    config = {
+    "configurable": {
+        # Checkpoints are accessed by thread_id
+        "thread_id": thread_id,
+    }
+    }
 
-  message = event.get("messages")
+    event = graph.invoke({"question": questions}, config)
 
-  if message:
+    message = event.get("messages")
+
+    if message:
         if isinstance(message, list):
             message = message[-1]
             msg_repr = message.pretty_repr(html=True)
 
-  return print(msg_repr)
+    return print(msg_repr)
 
 
 
