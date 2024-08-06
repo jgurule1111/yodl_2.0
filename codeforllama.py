@@ -509,7 +509,7 @@ config = {
     }
 }
 
-@st.cache_resource(ttl=3600)
+#@st.cache_resource(ttl=3600)
 def  test_poop(questions):
     config = {
     "configurable": {
