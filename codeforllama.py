@@ -461,7 +461,7 @@ def _print_event(event: dict, _printed: set, max_length=5000):
             msg_repr = message.pretty_repr(html=True)
             if len(msg_repr) > max_length:
                 msg_repr = msg_repr[:max_length] + " ... (truncated)"
-            print(msg_repr)
+            print(str(msg_repr))
             _printed.add(message.id)
 
 ####TESTERR
