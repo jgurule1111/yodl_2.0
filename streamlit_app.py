@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-import codeforllama
+from codeforllama import *
 
 st.title('Yodl')
 
