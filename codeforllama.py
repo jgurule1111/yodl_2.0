@@ -416,7 +416,7 @@ from langchain_openai import ChatOpenAI
 #model = ChatOpenAI(model="gpt-3.5-turbo")
 
 
-@st.cache
+@st.cache_resource
 def load_model():
 
   return ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
