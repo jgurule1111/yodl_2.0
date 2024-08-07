@@ -467,7 +467,7 @@ def _print_event(event: dict, _printed: set, max_length=5000):
 ####TESTERR
 
 from langgraph.prebuilt import ToolNode, tools_condition
-from langgraph.checkpoint.sqlite import SqliteSaver
+from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, StateGraph
 
 builder = StateGraph(GraphState)
@@ -492,7 +492,7 @@ builder.add_conditional_edges(
     {"tools": "tools", END: END},
 )
 
-memory = SqliteSaver.from_conn_string(":memory:")
+memory =  MemorySaver()
 graph = builder.compile(checkpointer=memory)
 
 from pprint import pprint
