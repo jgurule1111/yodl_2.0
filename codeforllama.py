@@ -523,5 +523,5 @@ def test_poop(questionz):
             message = message[-1]
             msg_repr = message.pretty_repr(html=True)
 
-  return print(msg_repr)
+  return msg_repr
   
