@@ -513,9 +513,9 @@ def test_poop(question):
       }
      }
 
-     events = graph.stream(
+    events = graph.stream(
       {"question": question}, config, stream_mode="values"
 
-      )
+    )
 
-     return events
+    return events
