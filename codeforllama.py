@@ -516,9 +516,6 @@ def test_poop(questions):
 
     message = event.get("messages")
 
-    if message:
-        if isinstance(message, list):
-            message = message[-1]
-            msg_repr = message.pretty_repr(html=True)
 
-    return print(msg_repr)
+
+    return print(message)
