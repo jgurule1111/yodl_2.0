@@ -503,10 +503,9 @@ from pprint import pprint
 import uuid
 
 @st.cache_resource
-def test_poop(questionz):
+def test_poop(question):
   _printed = set()
   thread_id = str(uuid.uuid4())
-
 
   config = {
       "configurable": {
@@ -514,14 +513,11 @@ def test_poop(questionz):
           "thread_id": thread_id,
       }
   }
-  event = graph.invoke({"question": questionz}, config)
 
-  message = event.get("messages")
+  events = graph.stream(
+      {"question": question}, config, stream_mode="values"
 
-  if message:
-        if isinstance(message, list):
-            message = message[-1]
-            msg_repr = message.pretty_repr(html=True)
+  )
 
-  return msg_repr
-  
+  for event in events:
+    _print_event(event, _printed)
