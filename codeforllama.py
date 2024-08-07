@@ -498,6 +498,13 @@ graph = builder.compile(checkpointer=memory)
 from pprint import pprint
 import uuid
 
+from datetime import datetime
+
+def custom_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat()
+    # Add other custom types here
+    raise TypeError(f"Type {type(obj)} not serializable")
 
 #@st.cache_resource(ttl=3600)
 def test_poop(questions):
@@ -514,8 +521,7 @@ def test_poop(questions):
     question = str(questions)
     event = graph.invoke({"question": questions}, config)
 
-    message = event.get("messages")
+    event_json = json.dumps(event, default=custom_serializer)
+    
 
-
-
-    return print(message)
+    return event_json
