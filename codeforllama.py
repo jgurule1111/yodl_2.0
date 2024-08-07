@@ -416,8 +416,12 @@ from langchain_openai import ChatOpenAI
 #model = ChatOpenAI(model="gpt-3.5-turbo")
 
 
+@st.cache
+def load_model():
 
-llm = ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
+  return ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
+
+llm = load_model()
 
 assistant_runnable = primary_assistant_prompt | llm.bind_tools(tools)
 
