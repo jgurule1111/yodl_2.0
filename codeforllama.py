@@ -30,7 +30,6 @@ from langgraph.prebuilt import ToolNode
 from pprint import pprint
 import uuid
 from langchain_community.vectorstores import FAISS
-import streamlit as st
 import json
 
 
@@ -528,6 +527,22 @@ def test_poop(questions):
             msg_repr = message.pretty_repr(html=True)
 
     return print(msg_repr)
+
+
+
+st.title('Yodl')
+
+
+
+    
+#user_input = st.text_area('Write something to activate the AI:', height=200)
+user_input = st.text_input('Enter your question:', placeholder = 'ex. what are the financial highlights for the year?')
+
+
+if st.button('Enter'):
+    with st.spinner('Thinking...'):
+        response = test_poop(user_input)
+        st.write(response)
 
 
 
