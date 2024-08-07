@@ -1,6 +1,6 @@
 import streamlit as st
 import os
-from codeforllama import *
+from codeforllama import test_poop
 
 st.title('Yodl')
 
@@ -8,7 +8,7 @@ st.title('Yodl')
 
 
 #user_input = st.text_area('Write something to activate the AI:', height=200)
-user_input = st.text_input('Enter your question:', placeholder = 'ex. what are the financial highlights for the year?, calculate the growth rate for Net Income for the year 2023?')
+user_input = st.text_input('Enter your question:', placeholder = 'ex. what are the financial highlights for the year?')
 
 
 if st.button('Enter'):
