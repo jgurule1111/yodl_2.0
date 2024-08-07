@@ -525,9 +525,21 @@ def test_poop(questions):
         }
     }
     question = str(questions)
+    
+    # Adding debug prints to track down the PosixPath
+    print(f"Question: {question}")
+    print(f"Config: {config}")
+    
     event = graph.invoke({"question": question}, config)
     
+    # Log the event for debugging purposes
+    print(f"Event before conversion: {event}")
+    
     event_json_ready = convert_posixpath_to_str(event)
+    
+    # Log the event after conversion for debugging purposes
+    print(f"Event after conversion: {event_json_ready}")
+    
     event_json = json.dumps(event_json_ready, default=custom_serializer)
 
     return event_json
