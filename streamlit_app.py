@@ -13,4 +13,4 @@ user_input = st.text_input('Enter your question:', placeholder = 'ex. what are t
 if st.button('Enter'):
     with st.spinner('Thinking...'):
         response = test_poop(user_input)
-         st.write(response)
+        st.write(response)
