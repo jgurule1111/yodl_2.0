@@ -497,31 +497,37 @@ graph = builder.compile(checkpointer=memory)
 
 from pprint import pprint
 import uuid
-
+from pathlib import PosixPath
 from datetime import datetime
 
 def custom_serializer(obj):
     if isinstance(obj, datetime):
         return obj.isoformat()
-    # Add other custom types here
+    elif isinstance(obj, PosixPath):
+        return str(obj)
     raise TypeError(f"Type {type(obj)} not serializable")
 
-#@st.cache_resource(ttl=3600)
-def test_poop(questions):
-    
-    _printed = set()
-    thread_id = str(uuid.uuid4())
-    
-    config = {
-    "configurable": {
-        # Checkpoints are accessed by thread_id
-        "thread_id": thread_id,
-      }
-     }
-    question = str(questions)
-    event = graph.invoke({"question": questions}, config)
+def convert_posixpath_to_str(data):
+    if isinstance(data, dict):
+        return {k: convert_posixpath_to_str(v) for k, v in data.items()}
+    elif isinstance(data, list):
+        return [convert_posixpath_to_str(v) for v in data]
+    elif isinstance(data, PosixPath):
+        return str(data)
+    else:
+        return data
 
-    event_json = json.dumps(event, default=custom_serializer)
+def test_poop(questions):
+    thread_id = str(uuid.uuid4())
+    config = {
+        "configurable": {
+            "thread_id": thread_id,
+        }
+    }
+    question = str(questions)
+    event = graph.invoke({"question": question}, config)
     
+    event_json_ready = convert_posixpath_to_str(event)
+    event_json = json.dumps(event_json_ready, default=custom_serializer)
 
     return event_json
