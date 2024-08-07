@@ -501,12 +501,16 @@ import uuid
 
 #@st.cache_resource(ttl=3600)
 def test_poop(questions):
+    
+    _printed = set()
+    thread_id = str(uuid.uuid4())
+    
     config = {
     "configurable": {
         # Checkpoints are accessed by thread_id
         "thread_id": thread_id,
+      }
      }
-    }
     question = str(questions)
     event = graph.invoke({"question": questions}, config)
 
