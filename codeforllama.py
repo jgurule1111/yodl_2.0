@@ -498,7 +498,7 @@ graph = builder.compile(checkpointer=memory)
 from pprint import pprint
 import uuid
 
-
+@st.cache_resource
 def test_poop(question:str):
     _printed = set()
     thread_id = str(uuid.uuid4())
