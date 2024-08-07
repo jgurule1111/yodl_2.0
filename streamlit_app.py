@@ -1,16 +1,16 @@
-#import streamlit as st
+import streamlit as st
 #import codeforllama
 
-#st.title('Yodl')
+st.title('Yodl')
 
 
 
     
 #user_input = st.text_area('Write something to activate the AI:', height=200)
-#user_input = st.text_input('Enter your question:', placeholder = 'ex. what are the financial highlights for the year?')
+user_input = st.text_input('Enter your question:', placeholder = 'ex. what are the financial highlights for the year?')
 
 
-#if st.button('Enter'):
-    #with st.spinner('Thinking...'):
-        #response = test_poop(user_input)
-        #st.write(response)
+if st.button('Enter'):
+    with st.spinner('Thinking...'):
+        response = test_poop(user_input)
+         st.write(response)
