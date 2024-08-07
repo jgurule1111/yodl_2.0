@@ -504,20 +504,18 @@ import uuid
 
 @st.cache_resource
 def test_poop(question):
-  _printed = set()
-  thread_id = str(uuid.uuid4())
-
-  config = {
+    _printed = set()
+    thread_id = str(uuid.uuid4())
+    config = {
       "configurable": {
           # Checkpoints are accessed by thread_id
           "thread_id": thread_id,
       }
-  }
+     }
 
-  events = graph.stream(
+     events = graph.stream(
       {"question": question}, config, stream_mode="values"
 
-  )
+      )
 
-  for event in events:
-    _print_event(event, _printed)
+     return events
