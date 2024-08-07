@@ -289,7 +289,7 @@ def balance_sheet(ticker: str, question: str):
 
 
 
-@st.cache_resource
+
 class GraphState(TypedDict):
     """
     Represents the state of our graph.
