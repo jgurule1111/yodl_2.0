@@ -157,7 +157,7 @@ def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   plt.xticks(rotation=45)
   plt.tight_layout()
   #plt.ylim([0, 50])
-  return plt.show()
+  return st.pyplot() #plt.show()
 
 @tool
 @st.cache_data
