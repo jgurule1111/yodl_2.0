@@ -1,53 +1,3 @@
-FORM 10-K
-         FORM 10-K
----
-# UNITED STATES SECURITIES AND EXCHANGE COMMISSION
-
-Washington, D.C. 20549
-
-# FORM 10-K
-
-(Mark One)
-
-- ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934 FOR THE FISCAL YEAR ENDED MAY 31, 2023
-- OR
-- ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(D) OF THE SECURITIES EXCHANGE ACT OF 1934 FOR THE TRANSITION PERIOD FROM ________ TO ________.
-
-Commission File No. 1-10635
-
-NIKE, Inc.
-
-(Exact name of Registrant as specified in its charter)
-
-- Oregon 93-0584541
-- (State or other jurisdiction of incorporation) (IRS Employer Identification No.)
-- One Bowerman Drive, Beaverton, Oregon 97005-6453
-- (Address of principal executive offices and zip code)
-- (503) 671-6453
-- (Registrant's telephone number, including area code)
-
-SECURITIES REGISTERED PURSUANT TO SECTION 12(B) OF THE ACT:
-
-|Title of each class|Trading symbol|Name of each exchange on which registered|
-|---|---|---|
-|Class B Common Stock|NKE|New York Stock Exchange|
-
-SECURITIES REGISTERED PURSUANT TO SECTION 12(G) OF THE ACT:
-
-NONE
-
-Indicate by check mark:
-
-- • if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. ☑
-- • if the registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act. ☐
-- • whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. ☑
-- • whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). ☑
-- • whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company or an emerging growth company. ☑ Large accelerated filer ☐ Accelerated filer ☐ Non-accelerated filer ☐ Smaller reporting company ☐ Emerging growth company ☐
-- • if an emerging growth company, if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐
-- • whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☑
-- • if securities are registered pursuant to Section 12(b) of the Act, whether the financial statements of the registrant ☐
-- • whether any of those error corrections are restatements that required a recovery analysis of incentive-based ☐
-- • whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). ☐
 
 As of November 30, 2022, the aggregate market values of the Registrant's Common Stock held by non-affiliates were:
 
@@ -63,73 +13,6 @@ As of July 12, 2023, the number of shares of the Registrant's Common Stock outst
 |---|---|
 |Class B|1,225,074,356|
 |Total|1,529,971,608|
-
-DOCUMENTS INCORPORATED BY REFERENCE:
-
-Parts of Registrant's Proxy Statement for the Annual Meeting of Shareholders to be held on September 12, 2023, are incorporated by reference into Part III of this report.
----
-# NIKE, INC. ANNUAL REPORT ON FORM 10-K
-
-# TABLE OF CONTENTS
-
-| | |PAGE|
-|---|---|---|
-|PART I| |1|
-|ITEM 1. Business|1| |
-|General| |1|
-|Products| |1|
-|Sales and Marketing| |2|
-|Our Markets| |2|
-|Significant Customer| |3|
-|Product Research, Design and Development| |3|
-|Manufacturing| |3|
-|International Operations and Trade| |4|
-|Competition| |5|
-|Trademarks and Patents| |5|
-|Human Capital Resources| |6|
-|Available Information and Websites| |7|
-|Information about our Executive Officers| |8|
-|ITEM 1A. Risk Factors| |9|
-|ITEM 1B. Unresolved Staff Comments| |24|
-|ITEM 2. Properties| |24|
-|ITEM 3. Legal Proceedings| |24|
-|ITEM 4. Mine Safety Disclosures| |24|
-
-# PART II
-
-|ITEM 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities|25|
-|---|---|
-|ITEM 6. Reserved|27|
-|ITEM 7. Management's Discussion and Analysis of Financial Condition and Results of Operations|28|
-|ITEM 7A. Quantitative and Qualitative Disclosures about Market Risk|49|
-|ITEM 8. Financial Statements and Supplementary Data|51|
-|ITEM 9. Changes in and Disagreements with Accountants on Accounting and Financial Disclosure|91|
-|ITEM 9A. Controls and Procedures|91|
-|ITEM 9B. Other Information|91|
-|ITEM 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections|91|
-
-# PART III
-
-(Except for the information set forth under “Information about our Executive Officers” in Item 1 above, Part III is incorporated by reference from the Proxy Statement for the NIKE, Inc. 2023 Annual Meeting of Shareholders.)
-
-|ITEM 10. Directors, Executive Officers and Corporate Governance|92|
-|---|---|
-|ITEM 11. Executive Compensation|92|
-|ITEM 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters|92|
-|ITEM 13. Certain Relationships and Related Transactions and Director Independence|92|
-|ITEM 14. Principal Accountant Fees and Services|92|
-
-# PART IV
-
-|ITEM 15. Exhibits and Financial Statement Schedules|93|
-|---|---|
-|ITEM 16. Form 10-K Summary|97|
-
-Signatures
----
-# PART I
-
-# ITEM 1. BUSINESS
 
 # GENERAL
 
@@ -213,10 +96,6 @@ As of May 31, 2023, our contract manufacturers operated 123 finished goods footw
 
 As of May 31, 2023, our contract manufacturers operated 291 finished goods apparel factories located in 31 countries. For fiscal 2023, NIKE Brand apparel finished goods were manufactured by 55 contract manufacturers, many of which operate multiple factories. The largest single finished goods apparel factory accounted for approximately 8% of total fiscal 2023 NIKE Brand apparel production. For fiscal 2023, factories in Vietnam, China and Cambodia manufactured approximately 29%, 18% and 16%.
 
-2023 FORM 10-K 3
----
-# NIKE, INC.
-
 of total NIKE Brand apparel, respectively. For fiscal 2023, one apparel contract manufacturer accounted for more than 10% of apparel production, and the top five contract manufacturers in the aggregate accounted for approximately 52% of NIKE Brand apparel production.
 
 NIKE's contract manufacturers buy raw materials for the manufacturing of our footwear, apparel and equipment products. Most raw materials are available and purchased by those contract manufacturers in the countries where manufacturing takes place.
@@ -267,8 +146,6 @@ We believe our success depends upon our capabilities in areas such as design, re
 
 We have followed a policy of applying for and registering intellectual property rights in the United States and select foreign countries on trademarks, inventions, innovations and designs that we deem valuable. We also continue to vigorously protect our intellectual property, including trademarks, patents and trade secrets against third-party infringement and misappropriation.
 
-2023 FORM 10-K 5
----
 # HUMAN CAPITAL RESOURCES
 
 At NIKE, we consider the strength and effective management of our workforce to be essential to the ongoing success of our business. We believe that it is important to attract, develop and retain a diverse and engaged workforce at all levels of our business and that such a workforce fosters creativity and accelerates innovation. We are focused on building an increasingly diverse talent pipeline that reflects our consumers, athletes and the communities we serve.
@@ -314,10 +191,6 @@ NIKE's total rewards are intended to be competitive and equitable, meet the dive
 
 Additional information related to our human capital strategy can be found in our FY22 NIKE, Inc. Impact Report, which is available on the Impact section of about.nike.com. Information contained on or accessible through our websites is not incorporated into, and does not form a part of, this Annual Report or any other report or document we file with the SEC, and any references to our websites are intended to be inactive textual references only.
 
-# AVAILABLE INFORMATION AND WEBSITES
-
-Our NIKE digital commerce website is located at www.nike.com. On our NIKE corporate website, located at investors.nike.com, we post the following filings as soon as reasonably practicable after they are electronically filed with, or furnished to, the United States Securities and Exchange Commission (the "SEC"): our annual report on Form 10-K, our quarterly reports on Form 10-Q, our current reports on Form 8-K and any amendments to those reports filed or furnished pursuant to Section 13(a) or 15(d) of the Securities and Exchange Act of 1934, as amended. Our proxy statements are also posted on our corporate website. All such filings on our corporate website are available free of charge. Copies of these filings are also available on the SEC's website at www.sec.gov. Also available on our corporate website are the charters of the committees of our Board of Directors, as well as our corporate governance guidelines and code of ethics. Copies of any of these documents will be provided in print to any shareholder who submits a request in writing to NIKE Investor Relations, One Bowerman Drive, Beaverton, Oregon 97005-6453. Information contained on or accessible through our website is not incorporated into, and does not form a part of, this Annual Report or any other report or document we file with the SEC, and any references to our website are intended to be inactive textual references only.
----
 # INFORMATION ABOUT OUR EXECUTIVE OFFICERS
 
 |Name|Title|Biography|
@@ -330,20 +203,12 @@ Our NIKE digital commerce website is located at www.nike.com. On our NIKE corpor
 |Heidi O'Neill|President, Consumer, Brand & Product|Ms. O'Neill, 58, joined NIKE in 1998 and leads the integration of global Men's, Women's & Kids' consumer teams, the entire global product engine and global brand marketing and sports marketing to build deep storytelling, relationships and engagement with the brand. Since joining NIKE, she has held a variety of key roles, including leading NIKE's marketplace and four geographic operating regions, leading NIKE Direct and accelerating NIKE's retail and digital-commerce business and creating and leading NIKE's Women’s business. Prior to NIKE, Ms. O'Neill held roles at Levi Strauss & Company and Foote, Cone & Belding.|
 |Craig Williams|President, Geographies & Marketplace|Mr. Williams, 54, joined NIKE in 2019 and leads NIKE's four geographies and marketplace across the NIKE Direct and wholesale business. In addition, he leads the Supply Chain and Logistics organization. Mr. Williams joined NIKE as President of Jordan Brand overseeing a team of designers, product developers, marketers and business leaders. Prior to NIKE, he was Senior Vice President, The Coca-Cola Co., and President of The McDonald's Division (TMD) Worldwide. Mr. Williams has also held roles at CIBA Vision and Kraft Foods Inc., and served five years in the U.S. Navy as a Naval Nuclear Power Officer.|
 ---
-# ITEM 1A. RISK FACTORS
-
-Special Note Regarding Forward-Looking Statements and Analyst Reports
-
-Certain written and oral statements, other than purely historic information, including estimates, projections, statements relating to NIKE's business plans, objectives and expected operating or financial results and the assumptions upon which those statements are based, made or incorporated by reference from time to time by NIKE or its representatives in this Annual Report, other reports, filings with the SEC, press releases, conferences or otherwise, are "forward-looking statements" within the meaning of the Private Securities Litigation Reform Act of 1995 and Section 21E of the Securities Exchange Act of 1934, as amended. Forward-looking statements include, without limitation, any statement that may predict, forecast, indicate or imply future results, performance or achievements, and may contain the words "believe," "anticipate," "expect," "estimate," "project," "will be," "will continue," "will likely result" or words or phrases of similar meaning. Forward-looking statements involve risks and uncertainties which may cause actual results to differ materially from the forward-looking statements. The risks and uncertainties are detailed from time to time in reports filed by NIKE with the SEC, including reports filed on Forms 8-K, 10-Q and 10-K, and include, among others, the following: international, national and local political, civil, economic and market conditions, including high, and increases in, inflation and interest rates; the size and growth of the overall athletic or leisure footwear, apparel and equipment markets; intense competition among designers, marketers, distributors and sellers of athletic or leisure footwear, apparel and equipment for consumers and endorsers; demographic changes; changes in consumer preferences; popularity of particular designs, categories of products and sports; seasonal and geographic demand for NIKE products; difficulties in anticipating or forecasting changes in consumer preferences, consumer demand for NIKE products and the various market factors described above; our ability to execute on our sustainability strategy and achieve our sustainability-related goals and targets, including sustainable product offerings; difficulties in implementing, operating and maintaining NIKE's increasingly complex information technology systems and controls, including, without limitation, the systems related to demand and supply planning and inventory control; interruptions in data and information technology systems; consumer data security; fluctuations and difficulty in forecasting operating results, including, without limitation, the fact that advance orders may not be indicative of future revenues due to changes in shipment timing, the changing mix of orders with shorter lead times, and discounts, order cancellations and returns; the ability of NIKE to sustain, manage or forecast its growth and inventories; the size, timing and mix of purchases of NIKE's products; increases in the cost of materials, labor and energy used to manufacture products; new product development and introduction; the ability to secure and protect trademarks, patents and other intellectual property; product performance and quality; customer service; adverse publicity and an inability to maintain NIKE's reputation and brand image, including without limitation, through social media or in connection with brand damaging events; the loss of significant customers or suppliers; dependence on distributors and licensees; business disruptions; increased costs of freight and transportation to meet delivery deadlines; increases in borrowing costs due to any decline in NIKE's debt ratings; changes in business strategy or development plans; general risks associated with doing business outside of the United States, including, without limitation, exchange rate fluctuations, import duties, tariffs, quotas, sanctions, political and economic instability, conflicts and terrorism; the potential impact of new and existing laws, regulations or policy, including, without limitation, tariffs, import/export, trade, wage and hour or labor and immigration regulations or policies; changes in government regulations; the impact of, including business and legal developments relating to, climate change, extreme weather conditions and natural disasters; litigation, regulatory proceedings, sanctions or any other claims asserted against NIKE; the ability to attract and retain qualified employees, and any negative public perception with respect to key personnel or our corporate culture, values or purpose; the effects of NIKE's decision to invest in or divest of businesses or capabilities; health epidemics, pandemics and similar outbreaks, including the COVID-19 pandemic; and other factors referenced or incorporated by reference in this Annual Report and other reports.
-
-Investors should also be aware that while NIKE does, from time to time, communicate with securities analysts, it is against NIKE's policy to disclose to them any material non-public information or other confidential commercial information. Accordingly, shareholders should not assume that NIKE agrees with any statement or report issued by any analyst irrespective of the content of the statement or report. Furthermore, NIKE has a policy against confirming financial forecasts or projections issued by others. Thus, to the extent that reports issued by securities analysts contain any projections, forecasts or opinions, such reports are not the responsibility of NIKE.
 
 # Risk Factors
 
 The risks included here are not exhaustive. Other sections of this Annual Report may include additional factors which could adversely affect NIKE's business and financial performance. Moreover, NIKE operates in a very competitive and rapidly changing environment. New risks emerge from time to time and it is not possible for management to predict all such risks, nor can it assess the impact of all such risks on NIKE's business or the extent to which any risk, or combination of risks, may cause actual results to differ materially from those contained in any forward-looking statements. Given these risks and uncertainties, investors should not place undue reliance on forward-looking statements as a prediction of actual results.
 
-2023 FORM 10-K 9
----
+
 # Economic and Industry Risks
 
 Global economic conditions could have a material adverse effect on our business, operating results and financial condition. The uncertain state of the global economy, including high and rising levels of inflation and interest rates and the risk of a recession, continues to impact businesses around the world. If global economic and financial market conditions deteriorate, the following factors, among others, could have a material adverse effect on our business, operating results and financial condition:
@@ -379,11 +244,6 @@ We may be adversely affected by the financial health of our wholesale customers.
 # Climate Change and Sustainability
 
 Climate change and other sustainability-related matters, or legal, regulatory, or market responses thereto, may have an adverse impact on our business and results of operations. There are concerns that increased levels of carbon dioxide and other greenhouse gases in the atmosphere have caused, and may continue to cause, potentially at a growing rate, increases in global temperatures, changes in weather patterns, and increasingly frequent and/or prolonged extreme weather and climate events. Climate change may also exacerbate challenges relating to the availability and quality of water and raw materials, including those used in the production of our products, and may result in changes in regulations or consumer preferences, which could in turn affect our business, operating results, and financial condition. For example, there has been increased focus by governmental and non-governmental organizations, consumers, customers, employees, and other stakeholders on products that are sustainably made and other sustainability matters, including responsible sourcing and deforestation, the use of plastic, energy and water, the recyclability or recoverability of packaging and materials transparency, any of which may require us to incur increased costs for additional transparency, due diligence, and reporting. In addition, federal, state, or local governmental authorities in various countries have proposed, and are likely to continue to propose, legislative and regulatory initiatives to reduce or mitigate the impacts of climate change on the environment. Various countries and regions are following different approaches to the regulation of climate change, which could increase the complexity of, and potential cost related to complying with, such regulations. Any of the foregoing may require us to make additional investments in facilities and equipment, may impact the availability and cost of key raw materials used in the production of our products or the demand for our products, and, in turn, may adversely impact our business, operating results, and financial condition. Although we have announced sustainability-related goals and targets, there can be no assurance that our stakeholders will agree with our strategies, and any perception, whether or not valid, that we have failed to achieve, or to act responsibly with respect to, such matters or to effectively respond to new or additional legal or regulatory requirements regarding climate change, could result in adverse publicity and adversely affect our business and reputation. Execution of these strategies and achievement of our goals is subject to risks and uncertainties, many of which are outside of our control. These risks and uncertainties include, but are not limited to:
-
-2023 FORM 10-K
-11
----
-# NIKE, INC.
 
 limited to, our ability to execute our strategies and achieve our goals within the currently projected costs and the expected timeframes; the availability and cost of raw materials and renewable energy; unforeseen production, design, operational and technological difficulties; the outcome of research efforts and future technology developments, including the ability to scale projects and technologies on a commercially competitive basis such as carbon sequestration and/or other related processes; compliance with, and changes or additions to, global and regional regulations, taxes, charges, mandates or requirements relating to greenhouse gas emissions, carbon costs or climate-related goals; adapting products to customer preferences and customer acceptance of sustainable supply chain solutions; and the actions of competitors and competitive pressures. As a result, there is no assurance that we will be able to successfully execute our strategies and achieve our sustainability-related goals, which could damage our reputation and customer and other stakeholder relationships and have an adverse effect on our business, results of operations and financial condition.
 
@@ -435,8 +295,6 @@ Failure to maintain our reputation, brand image and culture could negatively imp
 Our iconic brands have worldwide recognition, and our success depends on our ability to maintain and enhance our brand image and reputation. Maintaining, promoting and growing our brands will depend on our design and marketing efforts, including advertising and consumer campaigns, product innovation and product quality. Our commitment to product innovation, quality and sustainability, and our continuing investment in design (including materials), marketing and sustainability measures may not have the desired impact on our brand image and reputation. In addition, our success in maintaining, extending and expanding our brand image depends on our ability to adapt to a rapidly changing media and digital environment, including our reliance on social media and other digital advertising networks, and digital dissemination of advertising campaigns on our digital platforms and through our digital experiences and products. We could be adversely impacted if we fail to achieve any of these objectives.
 
 Our brand value also depends on our ability to maintain a positive consumer perception of our corporate integrity, purpose and brand culture. Negative claims or publicity involving us, our culture and values, our products, services and experiences, consumer data, or any of our key employees, endorsers, sponsors, suppliers or partners could seriously damage our reputation and brand image, regardless of whether such claims are accurate. For example, while we require our suppliers of our products to operate their business in compliance with applicable laws and regulations, we do not control their practices. Negative publicity relating to a violation or an alleged violation of policies or laws by such suppliers could damage our brand image and diminish consumer trust in our brand. Further, our reputation and brand image could be damaged as a result of our support of, association with or lack of support or disapproval of certain social causes, as well as any decisions we make to continue to conduct, or change, certain of our activities in response to such considerations. Social media, which accelerates and potentially amplifies the scope of negative publicity, can increase the challenges of responding to negative claims. Adverse publicity about regulatory or legal action against us, or by us, could also damage our reputation and brand image, undermine consumer confidence in us and reduce long-term demand for our products, even if the regulatory or legal action is unfounded or not material to our operations. If
----
-# NIKE, INC.
 
 The reputation, culture or image of any of our brands is tarnished or if we receive negative publicity, then our sales, financial condition and results of operations could be materially and adversely affected.
 
@@ -459,8 +317,6 @@ Many factors unique to retail operations, some of which are beyond our control, 
 We may not realize a satisfactory return on our investment in our NIKE Direct operations and management's attention from our other business opportunities could be diverted, which could have an adverse effect on our business, financial condition or results of operations.
 
 If the technology-based systems that give our consumers the ability to shop or interact with us online do not function effectively, our operating results, as well as our ability to grow our digital commerce business globally or to retain our customer base, could be materially adversely affected. Many of our consumers shop with us through our digital platforms. Increasingly, consumers are using mobile-based devices and applications to shop online with us and with our competitors, and to do comparison shopping, as well as to engage with us and our competitors through digital services and experiences that are offered on mobile platforms. We use social media and proprietary mobile applications to interact with our consumers and as a means to enhance their shopping experience. Any failure on our part to provide attractive, effective, reliable, secure and user-friendly digital commerce platforms that offer a wide assortment of merchandise with rapid delivery options and that continually meet the changing expectations of online shoppers or any failure to provide attractive digital experiences to our customers could place us at a competitive disadvantage, result in the loss of digital commerce and other sales, harm our reputation with consumers, have a material adverse impact on the growth of our digital commerce business globally and have a material adverse impact on our business and results of operations.
----
-# NIKE, INC.
 
 addition, as use of our digital platforms continues to grow, we will need an increasing amount of technical infrastructure to continue to satisfy our consumers' needs. If we fail to continue to effectively scale and adapt our digital platforms to accommodate increased consumer demand, our business may be subject to interruptions, delays or failures and consumer demand for our products and digital experiences could decline.
 
@@ -498,8 +354,6 @@ Our ability to effectively obtain real estate to open new retail stores and othe
 
 Additionally, the economic environment may make it difficult to determine the fair market rent of real estate properties domestically and internationally. This could impact the quality of our decisions to exercise lease options at previously negotiated rents and to renew expiring leases at negotiated rents. Any adverse effect on the quality of these decisions could impact our ability to retain real estate locations adequate to meet our targets or efficiently manage the profitability of our existing fleet of stores, which could have an adverse effect on our operating results and financial condition.
 
-2023 FORM 10-K 17
----
 # The success of our business
 
 depends, in part, on high-quality employees, including key personnel as well as our ability to maintain our workplace culture and values. Our success depends in part on the continued service of high-quality employees, including key executive officers and personnel. The loss of the services of key individuals, or any negative perception with respect to these individuals, or our workplace culture or values, could harm our business. Our success also depends on our ability to recruit, retain and engage our personnel sufficiently, both to maintain our current business and to execute our strategic initiatives. Competition for employees in our industry is intense and we may not be successful in attracting and retaining such personnel. Changes to our current and future work models may not meet the needs or expectations of our employees or may not be perceived as favorable compared to other companies' policies, which could negatively impact our ability to attract, hire and retain our employees. In addition, shifts in U.S. immigration policy could negatively impact our ability to attract, hire and retain highly skilled employees who are from outside the United States. We also believe that our corporate culture has been a key driver of our success, and we have invested substantial time and resources in building, maintaining and evolving our culture. Any failure to preserve and evolve our culture could negatively affect our future success, including our ability to retain and recruit employees.
@@ -531,8 +385,6 @@ Our success relies on efficient global distribution facilities to meet customer 
 # Legal, Regulatory, and Compliance Risks
 
 Operating as a multinational corporation subjects us to a complex set of laws, regulations, and legal proceedings globally. Non-compliance could lead to fines, sanctions, or penalties affecting our reputation and financial performance. Legal risks include claims, lawsuits, and investigations related to various aspects of our business, products, and employee actions. Uncertainties in legal and compliance matters pose ongoing risks that could impact our operations and reputation.
----
-# NIKE, INC.
 
 apply, and it is possible that legislators, regulators and courts may disagree with our conclusions. Any current or future legal or regulatory proceedings could divert management's attention from our operations and result in substantial legal fees.
 
@@ -616,12 +468,6 @@ Anti-takeover provisions may impair an acquisition of the Company or reduce the 
 
 We may fail to meet market expectations, which could cause the price of our stock to decline. Our Class B Common Stock is traded publicly, and at any given time various securities analysts follow our financial results and issue reports on us. These reports include information about our historical financial results as well as analysts' opinions of our future performance, which may, in part, be based upon any guidance we have provided. Analysts' estimates are often different from our estimates or expectations. If our operating results are below the estimates or expectations of public market analysts and investors, our stock price could decline. In the past, securities class action litigation has been brought against NIKE and other companies following a decline in the market price of their securities. If our stock price is volatile for any reason, we may become involved in this type of litigation in the future. Any litigation could result in reputational damage, substantial costs and a diversion of management's attention and resources needed to successfully run our business.
 
-2023 FORM 10-K 23
----
-# ITEM 1B. UNRESOLVED STAFF COMMENTS
-
-None.
-
 # ITEM 2. PROPERTIES
 
 The following is a summary of principal properties owned or leased by NIKE:
@@ -638,10 +484,6 @@ Aside from the principal properties described above, we lease many offices world
 
 We do not believe there are any material pending legal proceedings, other than ordinary routine litigation incidental to our business, to which we are a party or of which any of our property is the subject. Refer to Note 16 — Commitments and Contingencies in the accompanying Notes to the Consolidated Financial Statements for further information.
 
-# ITEM 4. MINE SAFETY DISCLOSURES
-
-Not applicable.
----
 # MARKET FOR REGISTRANT'S COMMON EQUITY, RELATED STOCKHOLDER MATTERS AND ISSUER PURCHASES OF EQUITY SECURITIES
 
 NIKE's Class B Common Stock is listed on the New York Stock Exchange and trades under the symbol NKE. At July 12, 2023, there were 21,813 holders of record of NIKE's Class B Common Stock and 15 holders of record of NIKE's Class A Common Stock. These figures do not include beneficial owners who hold shares in nominee name. The Class A Common Stock is not publicly traded, but each share is convertible upon request of the holder into one share of Class B Common Stock. Refer to our Consolidated Statements of Shareholders' Equity for dividends declared on the Class A and Class B Common Stock.
@@ -661,31 +503,6 @@ All share repurchases were made under NIKE's publicly announced program, and the
 |May 1 — May 31, 2023|4,134,824|$118.30|$13,200|
 |Total|11,535,539|$120.83| |
 
-(2023 FORM 10-K 25)
----
-# PERFORMANCE GRAPH
-
-The following graph demonstrates a five-year comparison of cumulative total returns for NIKE's Class B Common Stock; the Standard & Poor's 500 Stock Index; the Dow Jones U.S. Footwear Index; and the Standard & Poor's Apparel, Accessories & Luxury Goods Index. The graph assumes an investment of $100 on May 31, 2018, in each of the indices and our Class B Common Stock. Each of the indices assumes that all dividends were reinvested on the day of issuance.
-
-# COMPARISON OF 5-YEAR CUMULATIVE TOTAL RETURN AMONG NIKE, INC.; S&P 500 INDEX; THE DOW JONES U.S. FOOTWEAR INDEX; AND S&P APPAREL, ACCESSORIES & LUXURY GOODS INDEX
-
-| |2018|2019|2020|2021|2022|2023|
-|---|---|---|---|---|---|---|
-|NIKE, Inc.| | | | | | |
-|DOW JONES US FOOTWEAR INDEX| | | | | | |
-|S&P 500 INDEX - TOTAL RETURN| | | | | | |
-|S&P 500 APPAREL, ACCESSORIES & LUXURY GOODS INDEX| | | | | | |
-
-The Dow Jones U.S. Footwear Index consists of NIKE, Crocs Inc., Deckers Outdoor Corporation and Skechers U.S.A., Inc. Because NIKE is part of the Dow Jones U.S. Footwear Index, the price and returns of NIKE stock have a substantial effect on this index. The Standard & Poor's Apparel, Accessories & Luxury Goods Index consists of Ralph Lauren Corporation, Tapestry, Inc. and V.F. Corporation. The Dow Jones U.S. Footwear Index and the Standard & Poor's Apparel, Accessories & Luxury Goods Index include companies in two major lines of business in which the Company competes. The indices do not encompass all of the Company's competitors, nor all product categories and lines of business in which the Company is engaged.
-
-The stock performance shown on the performance graph above is not necessarily indicative of future performance. The Company will not make or endorse any predictions as to future stock performance.
-
-The performance graph above is being furnished solely to accompany this Annual Report pursuant to Item 201(e) of Regulation S-K, is not being filed for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, and is not to be incorporated by reference into any filing of the Company, whether made before or after the date hereof, regardless of any general incorporation language in such filing.
----
-ITEM 6. [RESERVED]
-
-                    2023 FORM 10-K 27
----
 # ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS
 
 # OVERVIEW
@@ -865,8 +682,6 @@ FISCAL 2023 COMPARED TO FISCAL 2022
 - NIKE Brand apparel revenues increased 8% on a currency-neutral basis, primarily due to higher revenues in Men's. Unit sales of apparel increased 4%, while higher ASP per unit contributed approximately 4 percentage points of apparel revenue growth. Higher ASP was primarily due to higher full-price ASP and growth in the size of our NIKE Direct business, partially offset by lower NIKE Direct ASP, reflecting higher promotional activity.
 - NIKE Direct revenues increased 14% from $18.7 billion in fiscal 2022 to $21.3 billion in fiscal 2023. On a currency-neutral basis, NIKE Direct revenues increased 20% primarily driven by NIKE Brand Digital sales growth of 24%, comparable store sales growth of 14%, and the addition of new stores. For further information regarding comparable store sales, including the definition, see "Comparable Store Sales". NIKE Brand Digital sales were $12.6 billion for fiscal 2023 compared to $10.7 billion for fiscal 2022.
 
-2023 FORM 10-K 33
----
 # GROSS MARGIN
 
 FISCAL 2023 COMPARED TO FISCAL 2022
@@ -1070,8 +885,7 @@ Reported EBIT decreased 3% due to lower revenues and the following:
 - Gross margin expansion of approximately 140 basis points, primarily due to higher inventory obsolescence reserves recognized in the fourth quarter of fiscal 2022, favorable changes in standard foreign currency exchange rates and higher full-price ASP, net of discounts, in part due to product mix. This was partially offset by higher product costs reflecting higher input costs and product mix.
 - Selling and administrative expense was flat due to increased operating overhead expense offset by lower demand creation expense. The increase in operating overhead expense was primarily due to higher wage-related expenses and other administrative costs, partially offset by favorable changes in foreign currency exchange rates. Demand creation expense decreased primarily due to lower retail brand presentation costs, lower digital marketing and favorable changes in foreign currency exchange rates, partially offset by higher advertising and marketing expense.
 
-2023 FORM 10-K 39
----
+
 # ASIA PACIFIC & LATIN AMERICA
 
 | |FISCAL 2023|FISCAL 2022|% CHANGE|% CHANGE EXCLUDING CURRENCY CHANGES|FISCAL 2021|% CHANGE|% CHANGE EXCLUDING CURRENCY CHANGES|
@@ -1143,8 +957,6 @@ Reported EBIT increased 1% due to higher revenues and the following:
 - Gross margin expansion of approximately 50 basis points as higher full-price ASP, net of discounts, lower other costs, and growth in licensee revenues were partially offset by higher product costs, lower margins in direct to consumer in part reflecting increased promotional activity, and unfavorable changes in standard foreign currency exchange rates.
 - Selling and administrative expense increased 7% due to higher operating overhead and demand creation expense. Operating overhead expense increased primarily as a result of higher wage-related expenses. Demand creation expense increased as a result of higher advertising and marketing costs, partially offset by lower retail brand presentation costs.
 
-2023 FORM 10-K 41
----
 # CORPORATE
 
 | |FISCAL 2023|FISCAL 2022|% CHANGE FISCAL 2021|% CHANGE|
@@ -1194,8 +1006,6 @@ We conduct business in various currencies and have transactions which subject us
 
 Transactional exposures are managed on a portfolio basis within our foreign currency risk management program. We manage these exposures by taking advantage of natural offsets and currency correlations that exist within the portfolio and may also elect to use currency forward and option contracts to hedge the remaining effect of exchange rate fluctuations on probable forecasted future cash flows, including certain product cost exposures, non-functional currency denominated external sales and other costs described above. Generally, these are accounted for as cash flow hedges.
 
-2023 FORM 10-K 43
----
 # Certain currency forward contracts
 
 Used to manage the foreign exchange exposure of non-functional currency denominated monetary assets and liabilities subject to remeasurement are not formally designated as hedging instruments. Accordingly, changes in fair value of these instruments are recognized in Other (income) expense, net and are intended to offset the foreign currency impact of the remeasurement of the related non-functional currency denominated asset or liability being hedged.
@@ -1242,8 +1052,6 @@ To date, we have not experienced difficulty accessing the capital or credit mark
 
 As of May 31, 2023, we had Cash and equivalents and Short-term investments totaling $10.7 billion, primarily consisting of commercial paper, corporate notes, deposits held at major banks, money market funds, U.S. Treasury obligations and other investment grade fixed-income securities. Our fixed-income investments are exposed to both credit and interest rate risk. All of our investments are investment grade to minimize our credit risk. While individual securities have varying durations, as of May 31, 2023, the weighted-average days to maturity of our cash equivalents and short-term investments portfolio was 98 days.
 
-2023 FORM 10-K 45
----
 We believe that existing Cash and equivalents, Short-term investments and cash generated by operations, together with access to external sources of funds as described above, will be sufficient to meet our domestic and foreign capital needs in the foreseeable future.
 
 Our material cash requirements as of May 31, 2023, were as follows:
@@ -1266,9 +1074,6 @@ As of May 31, 2023, we did not have any off-balance sheet arrangements that have
 NEW ACCOUNTING PRONOUNCEMENTS
 
 Refer to Note 1 — Summary of Significant Accounting Policies within the accompanying Notes to the Consolidated Financial Statements for recently adopted and issued accounting standards.
-
-NIKE, INC.
----
 # CRITICAL ACCOUNTING ESTIMATES
 
 Our previous discussion and analysis of our financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with U.S. GAAP. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses and related disclosure of contingent assets and liabilities. Note 1 — Summary of Significant Accounting Policies in the accompanying Notes to the Consolidated Financial Statements describes the significant accounting policies and methods used in the preparation of our Consolidated Financial Statements.
@@ -1291,8 +1096,6 @@ We use derivative contracts to hedge certain anticipated foreign currency and in
 
 Refer to Note 12 — Risk Management and Derivatives in the accompanying Notes to the Consolidated Financial Statements for additional information.
 
-2023 FORM 10-K 47
----
 # INCOME TAXES
 
 We are subject to taxation in the United States, as well as various state and foreign jurisdictions. The determination of our provision for income taxes requires significant judgment, the use of estimates and the interpretation and application of complex tax laws. On an interim basis, we estimate our effective tax rate for the full fiscal year. This estimated annual effective tax rate is then applied to the year-to-date Income before income taxes excluding infrequently occurring or unusual items, to determine the year-to-date Income tax expense. The income tax effects of infrequent or unusual items are recognized in the interim period in which they occur. As the fiscal year progresses, we continually refine our estimate based upon actual events and earnings by jurisdiction during the year. This continual estimation process periodically results in a change to our expected effective tax rate for the fiscal year. When this occurs, we adjust the income tax provision during the quarter in which the change in estimate occurs. On a quarterly basis, we evaluate the probability a tax position will be effectively sustained and the appropriateness of the amount recognized for uncertain tax positions based on factors including changes in facts or circumstances, changes in tax law, settled audit issues and new audit activity. Changes in our assessment may result in the recognition of a tax benefit or an additional charge to the tax provision in the period our assessment changes. We recognize interest and penalties related to income tax matters in Income tax expense.
@@ -1304,9 +1107,6 @@ Refer to Note 7 — Income Taxes in the accompanying Notes to the Consolidated F
 In the ordinary course of business, we are subject to various legal proceedings, claims and government investigations related to our business, products and actions of our employees and representatives, including contractual and employment relationships, product liability, antitrust, customs, tax, intellectual property and other matters. We record contingent liabilities resulting from claims against us when a loss is assessed to be probable and the amount of the loss is reasonably estimable. Assessing probability of loss and estimating probable losses requires analysis of multiple factors, including in some cases judgments about the potential actions of third-party claimants and courts. Recorded contingent liabilities are based on the best information available and actual losses in any future period are inherently uncertain. If future adjustments to estimated probable future losses or actual losses exceed our recorded liability for such claims, we would record additional charges during the period in which the actual loss or change in estimate occurred. In addition to contingent liabilities recorded for probable losses, we disclose contingent liabilities when there is a reasonable possibility the ultimate loss will materially exceed the recorded liability.
 
 Refer to Note 16 — Commitments and Contingencies in the accompanying Notes to the Consolidated Financial Statements for additional information.
-
-NIKE, INC.
----
 # ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK
 
 In the normal course of business and consistent with established policies and procedures, we employ a variety of financial instruments to manage exposure to fluctuations in the value of foreign currencies and interest rates. It is our policy to utilize these financial instruments only where necessary to finance our business and manage such exposures; we do not enter into these transactions for trading or speculative purposes.
@@ -1329,8 +1129,6 @@ The estimated maximum one-day loss in fair value on our foreign currency sensiti
 
 The instruments not included in the VaR are intercompany loans denominated in non-functional currencies and fixed interest rate U.S. Dollar denominated debt. Intercompany loans and related interest amounts are eliminated in consolidation. Furthermore, our non-functional currency intercompany loans are substantially hedged against foreign exchange risk through the use of forward
 
-2023 FORM 10-K 49
----
 # Details of Third-Party Debt
 
 |(Dollars in millions)|2024|2025|2026|2027|2028|THEREAFTER|TOTAL FAIR VALUE| |
@@ -1347,8 +1145,6 @@ Our accounting systems include controls designed to reasonably assure assets are
 
 An internal corporate audit department reviews the results of its work with the Audit & Finance Committee of the Board of Directors, presently comprised of four outside, independent directors. The Audit & Finance Committee is responsible for the appointment of the independent registered public accounting firm and reviews, with the independent registered public accounting firm, management and the internal corporate audit staff, the scope and the results of the annual audit, the effectiveness of the accounting control system and other matters relating to the financial affairs of NIKE as the Audit & Finance Committee deems appropriate. The independent registered public accounting firm and the internal corporate auditors have full access to the Audit & Finance Committee, with and without the presence of management, to discuss any appropriate matters.
 
-2023 FORM 10-K 51
----
 # MANAGEMENT'S ANNUAL REPORT ON INTERNAL CONTROL OVER FINANCIAL REPORTING
 
 Management is responsible for establishing and maintaining adequate internal control over financial reporting, as such term is defined in Rule 13(a) - 15(f) and Rule 15(d) - 15(f) of the Securities Exchange Act of 1934, as amended. Internal control over financial reporting is a process designed to provide reasonable assurance regarding the reliability of financial reporting and the preparation of the financial statements for external purposes in accordance with generally accepted accounting principles in the United States of America. Internal control over financial reporting includes those policies and procedures that:
@@ -1393,8 +1189,6 @@ A company’s internal control over financial reporting is a process designed to
 
 Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also, projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
 
-2023 FORM 10-K 53
----
 # Critical Audit Matters
 
 The critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates.
@@ -1412,8 +1206,6 @@ Portland, Oregon
 July 20, 2023
 We have served as the Company's auditor since 1974.
 
-# NIKE, INC.
----
 # NIKE, INC.
 
 # CONSOLIDATED STATEMENTS OF INCOME
@@ -1659,8 +1451,6 @@ The provision for anticipated sales returns consists of both contractual return 
 
 Estimates of discretionary authorized returns, discounts and claims are based on (1) historical rates, (2) specific identification of outstanding returns not yet received from customers and outstanding discounts and claims and (3) estimated returns, discounts and claims expected but not yet finalized with customers. Actual returns, discounts and claims in any future period are inherently uncertain and thus may differ from estimates recorded. If actual or expected future returns, discounts or claims are significantly greater or lower than the reserves established, a reduction or increase to net Revenues is recorded in the period in which such determination is made.
 
-2023 FORM 10-K 61
----
 # COST OF SALES
 
 Cost of sales consists primarily of inventory costs, as well as warehousing costs (including the cost of warehouse labor), third-party royalties, certain foreign currency hedge gains and losses and product design costs. Shipping and handling costs are expensed as incurred and included in Cost of sales.
@@ -1711,8 +1501,6 @@ Property, plant and equipment are recorded at cost. Depreciation is determined o
 
 Expenditures for major software purchases and software developed for internal use are capitalized and amortized over 2 to 12 years on a straight-line basis. The Company's policy provides for the capitalization of external direct costs associated with developing or obtaining internal use computer software. The Company also capitalizes certain payroll and payroll-related costs for employees who are directly associated with internal use computer software projects. The amount of capitalizable payroll costs with respect to these employees is limited to the time directly spent on such projects. Costs associated with preliminary project stage activities, training, maintenance and all other post-implementation stage activities are expensed as incurred. Development costs of computer software to be sold, leased or otherwise marketed as an integral part of a product are subject to capitalization beginning when a product's technological feasibility has been established and ending when a product is available for general release to customers. In most instances, the Company's products are released soon after technological feasibility has been established; therefore, software development costs incurred subsequent to achievement of technological feasibility are usually not significant, and generally, most software development costs have been expensed as incurred.
 
-2023 FORM 10-K 63
----
 # IMPAIRMENT OF LONG-LIVED ASSETS
 
 The Company reviews the carrying value of long-lived assets or asset groups to be used in operations whenever events or changes in circumstances indicate the carrying amount of the assets might not be recoverable. Factors that would necessitate an impairment assessment include a significant adverse change in the extent or manner in which an asset is used, a significant adverse change in legal factors or the business climate that could affect the value of the asset or a significant decline in the observable market value of an asset, among others. If such facts indicate a potential impairment, the Company would assess the recoverability of an asset group by determining if the carrying value of the asset group exceeds the sum of the projected undiscounted cash flows expected to result from the use and eventual disposition of the assets over the remaining economic life of the primary asset in the asset group. If the recoverability test indicates that the carrying value of the asset group is not recoverable, the Company will estimate the fair value of the asset group using appropriate valuation methodologies, which would typically include an estimate of discounted cash flows. Any impairment would be measured as the difference between the asset group's carrying amount and its estimated fair value.
@@ -1847,8 +1635,6 @@ Included in Interest expense (income), net was interest income related to the Co
 
 The Company records the assets and liabilities of its derivative financial instruments on a gross basis on the Consolidated Balance Sheets. The Company's derivative financial instruments are subject to master netting arrangements that allow for the offset of assets and liabilities in the event of default or early termination of the contract. Any amounts of cash collateral received related to these instruments associated with the Company's credit-related contingent features are recorded in Cash and equivalents and Accrued liabilities, the latter of which would further offset against the Company's derivative asset balance. Any amounts of cash collateral posted related to these instruments associated with the Company's credit-related contingent features are recorded in Prepaid expenses and other current assets, which would further offset against the Company's derivative liability balance. Cash collateral received or posted related to the Company's credit-related contingent features is presented in the Cash provided by operations component of the Consolidated Statements of Cash Flows. The Company does not recognize amounts of non-cash collateral received, such as securities, on the Consolidated Balance Sheets. For further information related to credit risk, refer to Note 12 — Risk Management and Derivatives.
 
-NIKE, INC.
----
 # DERIVATIVE ASSETS AND LIABILITIES
 
 | |MAY 31, 2023| | | | | | |
@@ -1875,8 +1661,6 @@ For additional information related to the Company's derivative financial instrum
 
 As further discussed in Note 18 — Acquisitions and Divestitures, the Company met the criteria to recognize the related assets and liabilities of its Argentina, Chile and Uruguay entities as held-for-sale as of May 31, 2022. This required the Company to remeasure the disposal groups at fair value, less costs to sell, which is considered a Level 3 fair value measurement and was based on each transaction's estimated consideration. All other assets or liabilities required to be measured at fair value on a non-recurring basis as of May 31, 2023 and 2022 were immaterial.
 
-2023 FORM 10-K 69
----
 # NOTE 5 — SHORT-TERM BORROWINGS AND CREDIT LINES
 
 The carrying amounts reflected in the Consolidated Balance Sheets for Notes payable approximate fair value.
@@ -1917,8 +1701,6 @@ The Company's Long-term debt is recorded at adjusted cost, net of unamortized pr
 
 The fair value of long-term debt is estimated based upon quoted prices for similar instruments or quoted prices for identical instruments in inactive markets (Level 2). The fair value of the Company's Long-term debt, including the current portion, was approximately $7,889 million and $8,933 million as of May 31, 2023 and 2022, respectively.
 
-2023 FORM 10-K 71
----
 # NOTE 7 — INCOME TAXES
 
 Income before income taxes is as follows:
@@ -2196,8 +1978,7 @@ The purpose of the Company's foreign exchange risk management program is to less
 
 Product cost foreign currency exposures are primarily generated through non-functional currency denominated product purchases. NIKE entities primarily purchase product in two ways: (1) Certain NIKE entities purchase product from the NIKE Trading Company ("NTC"), a wholly-owned sourcing hub that buys NIKE branded products from third-party factories, predominantly in U.S. Dollars. The NTC, whose functional currency is the U.S. Dollar, then sells the product to NIKE entities in their respective functional currencies. NTC sales to a NIKE entity with a different functional currency result in a foreign currency
 
-2023 FORM 10-K 79
----
+
 # Exposure for the NTC
 
 (2) Other NIKE entities purchase product directly from third-party factories in U.S. Dollars. These purchases generate a foreign currency exposure for those NIKE entities with a functional currency other than the U.S. Dollar. The Company's policy permits the utilization of derivatives to reduce its foreign currency exposures where internal netting or other strategies cannot be effectively employed. Typically, the Company may enter into hedge contracts starting up to 12 to 24 months in advance of the forecasted transaction and may place incremental hedges up to 100% of the exposure by the time the forecasted transaction occurs. The total notional amount of outstanding foreign currency derivatives designated as cash flow hedges was $18.2 billion as of May 31, 2023.
@@ -2307,8 +2088,6 @@ The Company is exposed to credit-related losses in the event of nonperformance b
 |Other|—|—|—|—|$ 102|$ 102|$ 153| |
 |TOTAL REVENUES|$ 18,353|$ 12,479|$ 7,547|$ 5,955|$ 102|$ 44,436|$ 46,710| |
 
-2023 FORM 10-K 83
----
 # YEAR ENDED MAY 31, 2021
 
 | |EUROPE, MIDDLE EAST & AFRICA|ASIA PACIFIC & GREATER CHINA| |AMERICA|GLOBAL BRAND DIVISIONS| | |TOTAL| |
@@ -2351,8 +2130,6 @@ Inventories and Cost of sales for geographic operating segments and Converse ref
 
 Accounts receivable, net, Inventories and Property, plant and equipment, net for operating segments are regularly reviewed by management and are therefore provided below.
 
-2023 FORM 10-K 85
----
 # NIKE, INC.
 
 | |YEAR ENDED MAY 31,|2023|2022|2021|
@@ -2453,8 +2230,6 @@ The Company's largest concentrations of long-lived assets primarily consist of t
 |Belgium|$702|$646|
 |China|$559|$538|
 
-2023 FORM 10-K 87
----
 # NOTE 16 — COMMITMENTS AND CONTINGENCIES
 
 As of May 31, 2023 and 2022, the Company had bank guarantees and letters of credit outstanding totaling $588 million and $289 million, respectively, issued primarily for real estate agreements, self-insurance programs, other general business obligations and legal matters.
@@ -2549,238 +2324,6 @@ We carry out a variety of ongoing procedures, under the supervision and with the
 We are continuing several transformation initiatives to centralize and simplify our business processes and systems. These are long-term initiatives, which we believe will enhance our internal control over financial reporting due to increased automation and further integration of related processes. We will continue to monitor our internal control over financial reporting for effectiveness throughout these transformation initiatives.
 
 There have not been any changes in our internal control over financial reporting during our most recent fiscal quarter that have materially affected, or are reasonably likely to materially affect, our internal control over financial reporting.
-
-# ITEM 9B. OTHER INFORMATION
-
-No disclosure is required under this item.
-
-# ITEM 9C. DISCLOSURE REGARDING FOREIGN JURISDICTIONS THAT PREVENT INSPECTIONS
-
-Not applicable.
----
-# PART III
-
-# ITEM 10. DIRECTORS, EXECUTIVE OFFICERS AND CORPORATE GOVERNANCE
-
-The information required by Item 401 of Regulation S-K regarding directors is included under "Corporate Governance — NIKE, Inc. Board of Directors" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference. The information required by Item 401 of Regulation S-K regarding executive officers is included under "Information about our Executive Officers" in Item 1 of this Annual Report. The information required by Item 406 of Regulation S-K is included under "Corporate Governance — Code of Conduct" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference. The information required by Items 407(d)(4) and (d)(5) of Regulation S-K regarding the Audit & Finance Committee of the Board of Directors is included under "Corporate Governance — Board Structure and Responsibilities — Board Committees" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
-
-# ITEM 11. EXECUTIVE COMPENSATION
-
-The information required by Items 402, 407(e)(4) and 407(e)(5) of Regulation S-K regarding executive compensation is included under "Corporate Governance — Director Compensation for Fiscal 2023," "Executive Compensation — Compensation Discussion and Analysis," "Executive Compensation — Executive Compensation Tables," and "Additional Information — Compensation Committee Interlocks and Insider Participation," in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
-
-# ITEM 12. SECURITY OWNERSHIP OF CERTAIN BENEFICIAL OWNERS AND MANAGEMENT AND RELATED STOCKHOLDER MATTERS
-
-The information required by Item 201(d) of Regulation S-K is included under "Executive Compensation — Executive Compensation Tables — Equity Compensation Plan Information" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference. The information required by Item 403 of Regulation S-K is included under "Stock Ownership Information — Stock Holdings of Certain Owners and Management" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
-
-# ITEM 13. CERTAIN RELATIONSHIPS AND RELATED TRANSACTIONS AND DIRECTOR INDEPENDENCE
-
-The information required by Items 404 and 407(a) of Regulation S-K is included under "Additional Information — Transactions with Related Persons" and "Corporate Governance — NIKE, Inc. Board of Directors — Director Independence" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
-
-# ITEM 14. PRINCIPAL ACCOUNTANT FEES AND SERVICES
-
-The information required by Item 9(e) of Schedule 14A is included under "Audit Matters — Ratification of Appointment of Independent Registered Public Accounting Firm" in the definitive Proxy Statement for our 2023 Annual Meeting of Shareholders and is incorporated herein by reference.
-
-NIKE, INC.
----
-# PART IV
-
-# ITEM 15. EXHIBITS AND FINANCIAL STATEMENT SCHEDULES
-
-(a) The following documents are filed as part of this Annual Report:
-
-|1.|Financial Statements:| |
-|---|---|---|
-| |Report of Independent Registered Public Accounting Firm (PCAOB ID 238)|53|
-| |Consolidated Statements of Income for each of the three years ended May 31, 2023, May 31, 2022, and May 31, 2021|55|
-| |Consolidated Statements of Comprehensive Income for each of the three years ended May 31, 2023, May 31, 2022, and May 31, 2021|56|
-| |Consolidated Balance Sheets at May 31, 2023, and May 31, 2022|57|
-| |Consolidated Statements of Cash Flows for each of the three years ended May 31, 2023, May 31, 2022, and May 31, 2021|58|
-| |Consolidated Statements of Shareholders' Equity for each of the three years ended May 31, 2023, May 31, 2022, and May 31, 2021|59|
-| |Notes to Consolidated Financial Statements|60|
-
-|2.|Financial Statement Schedule:| |
-|---|---|---|
-| |II — Valuation and Qualifying Accounts for the years ended May 31, 2023, 2022, and 2021|96|
-| |All other schedules are omitted because they are not applicable or the required information is shown in the financial statements or notes thereto.| |
-
-3. Exhibits:
-
-|3.1|Restated Articles of Incorporation, as amended (incorporated by reference to Exhibit 3.1 to the Company's Quarterly Report on Form 10-Q for the fiscal quarter ended November 30, 2015).|
-|---|---|
-|3.2|Fifth Restated Bylaws, as amended (incorporated by reference to Exhibit 3.1 to the Company's Current Report on Form 8-K filed June 19, 2020).|
-
-|4.1|Restated Articles of Incorporation, as amended (see Exhibit 3.1).|
-|---|---|
-|4.2|Fifth Restated Bylaws, as amended (see Exhibit 3.2).|
-|4.3|Indenture dated as of April 26, 2013, by and between NIKE, Inc. and Deutsche Bank Trust Company Americas, as trustee (incorporated by reference to Exhibit 4.1 to the Company's Form 8-K filed April 26, 2013).|
-|4.4|Second Supplemental Indenture, dated as of October 29, 2015, by and between NIKE, Inc. and Deutsche Bank Trust Company Americas, as trustee, including the form of 3.875% Notes due 2045 (incorporated by reference to Exhibit 4.2 to the Company's Form 8-K filed October 29, 2015).|
-|4.5|Third Supplemental Indenture, dated as of October 21, 2016, by and between NIKE, Inc. and Deutsche Bank Trust Company Americas, as trustee, including the form of 2.375% Notes due 2026 and form of 3.375% Notes due 2046 (incorporated by reference to Exhibit 4.2 to the Company's Form 8-K filed October 21, 2016).|
-|4.6|Fourth Supplemental Indenture, dated as of March 27, 2020, by and between NIKE, Inc. and Deutsche Bank Trust Company Americas, as trustee, including the form of 2.400% Notes due 2025, form of 2.750% Notes due 2027, form of 2.850% Notes due 2030, form of 3.250% Notes due 2040, and form of 3.375% Notes due 2050 (incorporated by reference to Exhibit 4.2 to the Company's Form 8-K filed March 27, 2020).|
-|4.7|Description of Registrants Securities (incorporated by reference to Exhibit 4.6 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2019).|
-
-|10.1|Form of Non-Statutory Stock Option Agreement for options granted to non-employee directors under the 1990 Stock Incentive Plan (incorporated by reference to Exhibit 10.2 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2010).*|
-|---|---|
-|10.2|Form of Restricted Stock Agreement for non-employee directors under the 1990 Stock Incentive Plan (incorporated by reference to Exhibit 10.4 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2014).*|
-|10.3|Form of Non-Statutory Stock Option Agreement for options granted to executives under the Stock Incentive Plan (incorporated by reference to Exhibit 10.1 to the Company's Quarterly Report on Form 10-Q for the fiscal quarter ended February 28, 2018).*|
-
-2023 FORM 10-K 93
----
-# 10.4 Form of Indemnity Agreement
-
-Entered into between the Company and each of its officers and directors (incorporated by reference to Exhibit 10.2 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2008).
-
-# 10.5 NIKE, Inc. 1990 Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.7 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2014).
-
-# 10.6 NIKE, Inc. Deferred Compensation Plan
-
-(Amended and Restated effective April 1, 2013) (incorporated by reference to Exhibit 10.9 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2013).
-
-# 10.7 NIKE, Inc. Deferred Compensation Plan
-
-(Amended and Restated effective June 1, 2004) (applicable to amounts deferred before January 1, 2005) (incorporated by reference to Exhibit 10.6 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2004).
-
-# 10.8 Amendment No. 1 effective January 1, 2008 to the NIKE, Inc. Deferred Compensation Plan
-
-(June 1, 2004 Restatement) (incorporated by reference to Exhibit 10.9 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2009).
-
-# 10.9 NIKE, Inc. Foreign Subsidiary Employee Stock Purchase Plan
-
-(incorporated by reference to Exhibit 10.1 to the Company's Quarterly Report on Form 10-Q for the fiscal quarter ended November 30, 2008).
-
-# 10.10 Amended and Restated Covenant Not to Compete and Non-Disclosure Agreement
-
-Between NIKE, Inc. and Mark G. Parker dated July 24, 2008 (incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed July 24, 2008).
-
-# 10.11 Form of Restricted Stock Unit Agreement under the Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.2 to the Company's Quarterly Report on Form 10-Q for the fiscal quarter ended February 28, 2018).
-
-# 10.12 Form of Covenant Not to Compete and Non-Disclosure Agreement
-
-Between NIKE, Inc. and its executive officers (other than Mark G. Parker and John J. Donahoe II) (incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed February 18, 2020).
-
-# 10.13 Policy for Recoupment of Incentive Compensation
-
-(incorporated by reference to Exhibit 10.3 to the Company's Current Report on Form 8-K filed July 20, 2010).
-
-# 10.14 NIKE, Inc. Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.2 to the Company's Current Report on Form 8-K filed September 23, 2015).
-
-# 10.15 Form of Discretionary Performance Award Agreement
-
-(incorporated by reference to Exhibit 10.22 to the Company's Annual Report on Form 10-K for the fiscal year ended May 31, 2018).
-
-# 10.16 NIKE, Inc. Amended and Restated Long-Term Incentive Plan
-
-(incorporated by reference to Exhibit A to the Company's definitive Proxy Statement filed July 25, 2017).
-
-# 10.17 Offer Letter between NIKE, Inc. and John J. Donahoe II
-
-(incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed October 22, 2019).
-
-# 10.18 Form of Covenant Not to Compete and Non-Disclosure Agreement
-
-Between NIKE, Inc. and John J. Donahoe II (incorporated by reference to Exhibit 10.3 to the Company's Current Report on Form 8-K filed October 22, 2019).
-
-# 10.19 Form of Performance-Based Stock Option Agreement
-
-(incorporated by reference to Exhibit 10.2 to the Company's Current Report on Form 8-K filed October 22, 2019).
-
-# 10.20 Letter Agreement between NIKE, Inc. and Mark G. Parker
-
-(incorporated by reference to Exhibit 10.6 to the Company's Current Report on Form 8-K filed October 22, 2019).
-
-# 10.21 NIKE, Inc. Executive Performance Sharing Plan
-
-(incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed June 19, 2020).
-
-# 10.22 NIKE, Inc. Amended and Restated Long-Term Incentive Plan
-
-(incorporated by reference to Exhibit 10.2 to the Company's Current Report on Form 8-K filed June 19, 2020).
-
-# 10.23 Form of Non-Statutory Stock Option Agreement under the NIKE, Inc. Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.3 to the Company's Current Report on Form 8-K filed June 19, 2020).
-
-# 10.24 Form of Restricted Stock Unit Agreement under the NIKE, Inc. Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.4 to the Company's Current Report on Form 8-K filed June 19, 2020).
-
-# 10.25 NIKE, Inc. Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed September 18, 2020).
-
-# 10.26 NIKE, Inc. Performance-Based Restricted Stock Unit Agreement under the NIKE, Inc. Stock Incentive Plan
-
-(incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed on June 17, 2021).
-
-# 10.27 Credit Agreement
-
-Dated as of March 11, 2022, among NIKE, Inc., Bank of America, N.A., as Administrative Agent, and the other Banks named therein (incorporated by reference to Exhibit 10.2 to the Company's Current Report on Form 8-K filed March 14, 2022).
-
-# 10.28 NIKE, Inc. Employee Stock Purchase Plan
-
-As amended (incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed on September 14, 2022).
-
-# 10.29 Credit Agreement
-
-Dated as of March 10, 2023, among NIKE, Inc., Bank of America, N.A., as Administrative Agent, and the other Banks named therein (incorporated by reference to Exhibit 10.1 to the Company's Current Report on Form 8-K filed March 13, 2023).
-
-# 21 Subsidiaries of the Registrant.
-
-# 23 Consent of PricewaterhouseCoopers LLP, Independent Registered Public Accounting Firm
-
-(included within this Annual Report on Form 10-K).
-
-# 31.1 Rule 13a-14(a)/15d-14(a) Certification of Chief Executive Officer.
-
-# 31.2 Rule 13a-14(a)/15d-14(a) Certification of Chief Financial Officer.
-
-# 32 Section 1350 Certifications.
----
-# 101.INS
-
-Inline XBRL Instance Document - the instance document does not appear in the Interactive Data File because its
-XBRL tags are embedded within the Inline XBRL document.
-
-# 101.SCH
-
-Inline XBRL Taxonomy Extension Schema
-
-# 101.CAL
-
-Inline XBRL Taxonomy Extension Calculation Linkbase
-
-# 101.DEF
-
-Inline XBRL Taxonomy Extension Definition Document
-
-# 101.LAB
-
-Inline XBRL Taxonomy Extension Label Linkbase
-
-# 101.PRE
-
-Inline XBRL Taxonomy Extension Presentation Linkbase
-
-# 104
-
-Cover Page Interactive Data File - formatted in Inline XBRL and included in Exhibit 101
-
-* Management contract or compensatory plan or arrangement.
-
-† Furnished herewith
-
-The Exhibits filed herewith do not include certain instruments with respect to long-term debt of NIKE and its subsidiaries,
-inasmuch as the total amount of debt authorized under any such instrument does not exceed 10 percent of the total assets of
-NIKE and its subsidiaries on a consolidated basis. NIKE agrees, pursuant to Item 601(b)(4)(iii) of Regulation S-K, that it will
-furnish a copy of any such instrument to the SEC upon request.
-
-2023 FORM 10-K 95
----
 # SCHEDULE II — VALUATION AND QUALIFYING ACCOUNTS
 
 | |BALANCE AT BEGINNING OF PERIOD|CHARGED TO COSTS AND EXPENSES|CHARGED TO OTHER ACCOUNTS(1)|WRITE-OFFS, NET OF RECOVERIES|BALANCE AT END OF PERIOD|
@@ -2790,78 +2333,7 @@ furnish a copy of any such instrument to the SEC upon request.
 |Sales returns reserve|$525|$3,344|($11)|($3,309)|$549|
 
 (1) Amounts included in this column primarily relate to foreign currency translation.
----
-ITEM 16. FORM 10-K SUMMARYNone.
-2023 FORM 10-K 97
----
-# Consent of Independent Registered Public Accounting Firm
 
-We hereby consent to the incorporation by reference in the Registration Statements on Form S-3 (No. 333-266267) and Form
-S-8 (Nos. 033-63995, 333-63581, 333-63583, 333-68864, 333-68886, 333-71660, 333-104822, 333-117059, 333-133360,
-333-164248, 333-171647, 333-173727, 333-208900, 333-215439 and 333-266269) of NIKE, Inc. of our report dated July 20,
-2023 relating to the financial statements, financial statement schedule and the effectiveness of internal control over financial
-reporting, which appears in this Form 10-K.
-
-/s/ PricewaterhouseCoopers LLP
-Portland, Oregon
-July 20, 2023
-
-# NIKE, INC.
----
-# SIGNATURES
-
-Pursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned, thereunto duly authorized.
-
-NIKE, INC.
-
-By: /s/ JOHN J. DONAHOE II
-John J. Donahoe II
-President and Chief Executive Officer
-
-Date: July 20, 2023
-
-Pursuant to the requirements of the Securities Exchange Act of 1934, as amended, this report has been signed below by the following persons on behalf of the registrant and in the capacities and on the dates indicated.
-
-|SIGNATURE|PRINCIPAL EXECUTIVE OFFICER AND DIRECTOR:|
-|---|---|
-|/s/ JOHN J. DONAHOE II|John J. Donahoe II|
-|PRINCIPAL FINANCIAL OFFICER:|/s/ MATTHEW FRIEND|
-| |Matthew Friend|
-|PRINCIPAL ACCOUNTING OFFICER:|/s/ JOHANNA NIELSEN|
-| |Johanna Nielsen|
-|DIRECTORS:|/s/ MARK G. PARKER|
-| |Mark G. Parker|
-|/s/ CATHLEEN A. BENKO|Cathleen A. Benko|
-|/s/ TIMOTHY D. COOK|Timothy D. Cook|
-|/s/ THASUNDA B. DUCKETT|Thasunda B. Duckett|
-|/s/ MÓNICA GIL|Mónica Gil|
-|/s/ ALAN B. GRAF, JR.|Alan B. Graf, Jr.|
-|/s/ MARIA HENRY|Maria Henry|
-|/s/ PETER B. HENRY|Peter B. Henry|
-|/s/ TRAVIS A. KNIGHT|Travis A. Knight|
-|/s/ MICHELLE A. PELUSO|Michelle A. Peluso|
-|/s/ JOHN W. ROGERS, JR.|John W. Rogers, Jr.|
-|/s/ ROBERT SWAN|Robert Swan|
-
-|TITLE|DATE|
-|---|---|
-|President and Chief Executive Officer|July 20, 2023|
-|Executive Vice President and Chief Financial Officer|July 20, 2023|
-|Vice President and Corporate Controller|July 20, 2023|
-|Director, Chairman of the Board|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-|Director|July 20, 2023|
-
-2023 FORM 10-K 99
----
 # DIRECTORS
 
 |Cathleen Benko(3)|Former Vice Chairman & Managing Principal|Deloitte LLP|Redwood City, California|
@@ -2902,90 +2374,3 @@ Pursuant to the requirements of the Securities Exchange Act of 1934, as amended,
 (4) Member — Corporate Responsibility, Sustainability & Governance Committee
 
 (5) Lead Independent Director
----
-# SUBSIDIARY BRANDS LOCATIONS
-
-|SUBSIDIARY|BRANDS|LOCATIONS|
-|---|---|---|
-|160 North Washington St.| | |
-|Boston, Massachusetts 02114| | |
-
-WORLD HEADQUARTERS
-
-One Bowerman Drive
-
-Beaverton, Oregon 97005-6453
-
-EUROPEAN HEADQUARTERS
-
-Colosseum 1
-
-1213 NL HilversumThe Netherlands
-
-One Bowerman Drive
-
-Beaverton, Oregon 97005-6453
-
-GREATER CHINA HEADQUARTERS
-
-LiNa Building
-
-Tower 1, No. 99
-
-Jiangwancheng RoadYangpu District
-
-Shanghai, China 200438
-
-# SHAREHOLDER INFORMATION
-
-INDEPENDENT ACCOUNTANTS
-
-PricewaterhouseCoopers LLP
-
-805 SW Broadway, Suite 800
-
-Portland, Oregon 97205
-
-REGISTRAR AND STOCK TRANSFER AGENT
-
-Computershare Trust Company, N.A.
-
-P.O. Box 505000
-
-Louisville, KY 40233
-
-800-756-8200
-
-Hearing Impaired #
-
-TDD: 800-952-9245
-
-www-us.computershare.com/investor
-
-Shareholder Information
-
-NIKE, Inc. common stock is listed on the New York Stock Exchange under trading symbol ‘NKE.’ Copies of the Company’s Form 10-K or Form
-10-Q reports filed with the Securities and Exchange Commission are available from the Company without charge. To request a copy, please call
-800-640-8007 or write to NIKE’s Investor Relations Department at NIKE World Headquarters, One Bowerman Drive, Beaverton, Oregon 97005-
-6453. Copies are available on the investor relations website, http://investors.nike.com.
-
-Dividend Payments
-
-Quarterly dividends on NIKE common stock, when declared by the Board of Directors, are paid on or about July 5, October 5, January 5, and April 5. Additional
-financial information is available at http://investors.nike.com.
-
-Other Shareholder Assistance
-
-Communications concerning shareholder address changes, stock transfers, changes of ownership, lost stock certificates, payment of dividends, dividend check
-replacements, duplicate mailings, or other account services should be directed to the Company’s Registrar and Stock Transfer Agent at the address or telephone
-number above.
-
-NIKE, the Swoosh Design, and Just Do It are registered trademarks of NIKE, Inc.
----
-# NIKE, INC.
-
-One Bowerman Drive
-
-Beaverton, OR 97005-6453
-
-www.nike.com
