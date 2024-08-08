@@ -502,6 +502,8 @@ graph = builder.compile()
 
 from pprint import pprint
 import uuid
+from langchain_core.messages import BaseMessage
+
 
 @st.cache_resource
 def test_poop(poop):
