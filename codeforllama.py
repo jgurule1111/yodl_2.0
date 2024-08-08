@@ -45,7 +45,7 @@ os.environ['GROQ_API_KEY'] = 'gsk_1N4EojO5Tx0kIJQ7XpfyWGdyb3FY0xph2CiebhEN01IvFz
 
 
 @tool
-@st.cache_data
+@st.cache_resource
 def calculate_growth_rate(present_value, past_value):
     """
     Calculate the growth rate given the initial and final values.
@@ -68,7 +68,7 @@ def calculate_growth_rate(present_value, past_value):
         return print("error, Initial value cannot be zero")
 
 @tool
-@st.cache_data
+@st.cache_resource
 def calculate_quick_ratio(current_assets, inventory, current_liabilities):
     """
     Calculate the net working capital.
@@ -91,7 +91,7 @@ def calculate_quick_ratio(current_assets, inventory, current_liabilities):
         return print("error Current liabilities cannot be zero")
 
 @tool
-@st.cache_data
+@st.cache_resource
 def net_working_capital(current_assets, long_term_debt, current_liabilities):
   """    Calculate the net working capital.
 
@@ -113,7 +113,7 @@ def net_working_capital(current_assets, long_term_debt, current_liabilities):
 
 
 @tool
-@st.cache_data
+@st.cache_resource
 def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   """
     Generate a line graph to visualize financial data (e.g., EPS, revenue, and free cash flow) over time for a specified company.
@@ -160,7 +160,7 @@ def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   return st.pyplot() #plt.show()
 
 @tool
-@st.cache_data
+@st.cache_resource
 def calculate_cagr(present_value, past_value, time):
     """Calculates the Compound Annual Growth Rate (CAGR) given the present value, past value, and the number of years.
 
@@ -186,21 +186,8 @@ def calculate_cagr(present_value, past_value, time):
     except Exception as e:
         return print("error")
 
-
-#document_path = Path("parsed_document.md")
 paths = "parsed_document.md"
 
-#loader = UnstructuredMarkdownLoader(document_path)
-#loaded_documents = loader.load()
-
-#text_splitter = RecursiveCharacterTextSplitter(chunk_size=4048, chunk_overlap=128)
-#doc = text_splitter.split_documents(loaded_documents)
-
-
-#embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-#db = FAISS.from_documents(doc, embeddings)
-
-#retriever = db.as_retriever(search_kwargs={"k": 3})
 @st.cache_resource
 def setup_document_retriever(document_path: str):
     # Load the document
@@ -223,11 +210,12 @@ def setup_document_retriever(document_path: str):
 
 retriever = setup_document_retriever(paths)
 
-compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
-compression_retriever = ContextualCompressionRetriever(
-    base_compressor=compressor, base_retriever=retriever
-)
+@st.cache_resource
+def compression(retriever):
+  compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
+  return ContextualCompressionRetriever(base_compressor=compressor, base_retriever=retriever)
 
+compression_retriever = compression(retriever)
 
 tools = [
     net_working_capital,
@@ -237,7 +225,7 @@ tools = [
     calculate_cagr
 ]
 
-@st.cache_data
+@st.cache_resource
 def income_statement(ticker: str, question: str):
   """
     This function fetches the income statement of a given company using its stock ticker symbol,
@@ -263,7 +251,7 @@ def income_statement(ticker: str, question: str):
 
   return {"documents": str(df_str)}
 
-@st.cache_data
+@st.cache_resource
 def balance_sheet(ticker: str, question: str):
   """
     This function fetches the income statement of a given company using its stock ticker symbol,
@@ -325,15 +313,7 @@ class Assistant:
 
         result = self.runnable.invoke(state)
 
-        #messages = state["messages"]
-        #response = llm.invoke(result)
-
-
-        #append = state['messages'].append(state['question'])
         del state['question']
-
-
-        #result is now generation = chain_mainy.invoke({"documents": documents, "question": question})
 
 
 
