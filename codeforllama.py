@@ -496,31 +496,18 @@ builder.add_conditional_edges(
     {"tools": "tools", END: END},
 )
 
-memory =  MemorySaver()
-graph = builder.compile(checkpointer=memory)
+#memory =  MemorySaver()
+#graph = builder.compile(checkpointer=memory)
+graph = builder.compile()
 
 from pprint import pprint
 import uuid
 
 @st.cache_resource
-def test_poop(questionz):
-  _printed = set()
-  thread_id = str(uuid.uuid4())
+def test_poop123(poop):
+  for event in graph.stream({"question": poop}):
+      for value in event.values():
+          if isinstance(value["messages"][-1], BaseMessage):
+              print("Assistant:", value["messages"][-1].content)
 
-
-  config = {
-      "configurable": {
-          # Checkpoints are accessed by thread_id
-          "thread_id": thread_id,
-      }
-  }
-  event = graph.invoke({"question": questionz}, config)
-
-  message = event.get("messages")
-
-  if message:
-        if isinstance(message, list):
-            message = message[-1]
-            msg_repr = message.pretty_repr(html=True)
-
-  return print(msg_repr)
+  return value["messages"][-1].content
