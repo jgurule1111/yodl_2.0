@@ -504,7 +504,7 @@ from pprint import pprint
 import uuid
 
 @st.cache_resource
-def test_poop123(poop):
+def test_poop(poop):
   for event in graph.stream({"question": poop}):
       for value in event.values():
           if isinstance(value["messages"][-1], BaseMessage):
