@@ -503,6 +503,29 @@ from pprint import pprint
 import uuid
 
 @st.cache_resource
+def test_poop(questionz):
+  _printed = set()
+  thread_id = str(uuid.uuid4())
+
+
+  config = {
+      "configurable": {
+          # Checkpoints are accessed by thread_id
+          "thread_id": thread_id,
+      }
+  }
+  event = graph.invoke({"question": questionz}, config)
+
+  message = event.get("messages")
+
+  if message:
+        if isinstance(message, list):
+            message = message[-1]
+            msg_repr = message.pretty_repr(html=True)
+
+  return msg_repr
+  
+@st.cache_resource
 def test_poop(question):
     _printed = set()
     thread_id = str(uuid.uuid4())
