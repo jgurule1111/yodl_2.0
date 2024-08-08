@@ -512,4 +512,4 @@ def test_poop(poop):
           if isinstance(value["messages"][-1], BaseMessage):
               print("Assistant:", value["messages"][-1].content)
 
-  return print("Assistant:", value["messages"][-1].content)
+  return value["messages"][-1].content
