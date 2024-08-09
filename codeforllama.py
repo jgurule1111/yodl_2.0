@@ -487,7 +487,7 @@ import uuid
 from langchain_core.messages import BaseMessage
 
 
-@st.cache_resource(show_spinner="Fetching data...")
+@st.cache_resource
 def test_poop(poop):
   for event in graph.stream({"question": poop}):
       for value in event.values():
