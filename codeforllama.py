@@ -188,7 +188,7 @@ def calculate_cagr(present_value, past_value, time):
 
 paths = "parsed_document.md"
 
-@st.cache_resource
+
 def setup_document_retriever(document_path: str):
     # Load the document
     document_path = Path(document_path)
@@ -210,7 +210,7 @@ def setup_document_retriever(document_path: str):
 
 retriever = setup_document_retriever(paths)
 
-@st.cache_resource
+
 def compression(retriever):
   compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
   return ContextualCompressionRetriever(base_compressor=compressor, base_retriever=retriever)
