@@ -188,7 +188,7 @@ def calculate_cagr(present_value, past_value, time):
 
 paths = "parsed_document.md"
 
-
+@st.cache_data
 def setup_document_retriever(document_path: str):
     # Load the document
     document_path = Path(document_path)
