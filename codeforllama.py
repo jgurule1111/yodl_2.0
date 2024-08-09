@@ -113,7 +113,7 @@ def net_working_capital(current_assets, long_term_debt, current_liabilities):
 
 
 @tool
-@st.cache_resource
+@st.cache_data
 def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   """
     Generate a line graph to visualize financial data (e.g., EPS, revenue, and free cash flow) over time for a specified company.
@@ -160,7 +160,7 @@ def generate_graph(name1:str, name2:str, name3:str, ticker="NKE"):
   return st.pyplot() #plt.show()
 
 @tool
-@st.cache_resource
+@st.cache_data
 def calculate_cagr(present_value, past_value, time):
     """Calculates the Compound Annual Growth Rate (CAGR) given the present value, past value, and the number of years.
 
@@ -188,7 +188,7 @@ def calculate_cagr(present_value, past_value, time):
 
 paths = "parsed_document.md"
 
-@st.cache_resource
+@st.cache_data
 def setup_document_retriever(document_path: str):
     # Load the document
     document_path = Path(document_path)
