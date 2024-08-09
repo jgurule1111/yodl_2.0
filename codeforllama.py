@@ -210,7 +210,7 @@ def setup_document_retriever(document_path: str):
 
 retriever = setup_document_retriever(paths)
 
-
+@st.cache_data
 def compression(retriever):
   compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
   return ContextualCompressionRetriever(base_compressor=compressor, base_retriever=retriever)
