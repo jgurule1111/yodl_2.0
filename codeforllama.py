@@ -288,13 +288,9 @@ class GraphState(TypedDict):
         documents: list of documents
     """
     messages : Annotated[list[AnyMessage], add_messages]
-    #document: str
     question : str
-    #generation : str
     documents : List[Document]
 
-
-#############################TEST
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import Runnable, RunnableConfig
 from langchain_core.messages import AIMessage
@@ -348,9 +344,6 @@ def retrieve(state):
       state (dict): New key added to state, documents, that contains retrieved documents
   """
 
-
-  #question = state["question"]
-
   #In order to remove an element from the beginning of a tuple, we will make a new tuple with the remaining elements as shown below
   question_myTuple = state["question"]     #this is where the question goes
   question_myTuple = question_myTuple[0:]  #this takes out the first word in the question which is 'user'
@@ -391,15 +384,9 @@ Retrieved Documents: {documents},"""
 )
 
 
-from langchain_openai import ChatOpenAI
-
-#model = ChatOpenAI(model="gpt-3.5-turbo")
-
-
 @st.cache_resource
 def load_model():
-
-  return ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
+    return ChatGroq(temperature=0, model="llama3-groq-70b-8192-tool-use-preview")
 
 llm = load_model()
 
@@ -432,32 +419,11 @@ def create_tool_node_with_fallback(tools: list) -> dict:
         [RunnableLambda(handle_tool_error)], exception_key="error"
     )
 
-
-def _print_event(event: dict, _printed: set, max_length=5000):
-    current_state = event.get("dialog_state")
-    if current_state:
-        print("Currently in: ", current_state[-1])
-    message = event.get("messages")
-    if message:
-        if isinstance(message, list):
-            message = message[-1]
-        if message.id not in _printed:
-            msg_repr = message.pretty_repr(html=True)
-            if len(msg_repr) > max_length:
-                msg_repr = msg_repr[:max_length] + " ... (truncated)"
-            print(str(msg_repr))
-            _printed.add(message.id)
-
-####TESTERR
-
 from langgraph.prebuilt import ToolNode, tools_condition
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, StateGraph
 
 builder = StateGraph(GraphState)
-
-
-
 
 builder.set_entry_point("retrieve")
 builder.add_node("retrieve", retrieve)
@@ -484,10 +450,9 @@ from pprint import pprint
 import uuid
 from langchain_core.messages import BaseMessage
 
-
 @st.cache_resource
-def test_poop(poop):
-  for event in graph.stream({"question": poop}):
+def call(info):
+  for event in graph.stream({"question": info}):
       for value in event.values():
           if isinstance(value["messages"][-1], BaseMessage):
               print("Assistant:", value["messages"][-1].content)
