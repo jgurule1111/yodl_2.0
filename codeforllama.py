@@ -210,7 +210,7 @@ def setup_document_retriever(document_path: str):
 
 retriever = setup_document_retriever(paths)
 
-@st.cache_resource
+@st.cache_data
 def compression(retriever):
   compressor = FlashrankRerank(model="ms-marco-MiniLM-L-12-v2")
   return ContextualCompressionRetriever(base_compressor=compressor, base_retriever=retriever)
@@ -412,7 +412,7 @@ from langchain_core.runnables import RunnableLambda
 
 from langgraph.prebuilt import ToolNode
 
-
+@st.cache_resource
 def handle_tool_error(state) -> dict:
     error = state.get("error")
     tool_calls = state["messages"][-1].tool_calls
@@ -427,12 +427,14 @@ def handle_tool_error(state) -> dict:
     }
 
 
+@st.cache_resource
 def create_tool_node_with_fallback(tools: list) -> dict:
     return ToolNode(tools).with_fallbacks(
         [RunnableLambda(handle_tool_error)], exception_key="error"
     )
 
 
+@st.cache_resource
 def _print_event(event: dict, _printed: set, max_length=5000):
     current_state = event.get("dialog_state")
     if current_state:
